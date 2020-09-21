@@ -8,3 +8,5 @@ RUN apt update && apt install -y \
 
 RUN cat createdb.sql *.txt | sqlite3 testdb.db
 
+RUN git add testdb.db && git commit -m "new DB" && git push
+
