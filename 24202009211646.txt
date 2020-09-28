@@ -1,7 +1,7 @@
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(00000000202009231136,2020-09-23,'00000000202009231136.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(24202009211646,2020-09-21,'24202009211646.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
 daq 0: fecs: 1
 	fec 0: hdmis: 1
-		hdmi 2: hybrids: 1
+		hdmi 4: hybrids: 1
 			hybrid 0: x 65535, vmms: 2
 				vmm 0
 				vmm 1
@@ -19,7 +19,7 @@ comment None
 output_path 
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(00000000202009231136,2020-09-23,'00000000202009231136_daq0_fec0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(24202009211646,2020-09-21,'24202009211646_daq0_fec0.txt','daq 0
 fec 0
 
 tp_delay 81
@@ -65,9 +65,9 @@ globalCKBC 3
 ts_ext_trg 0
 open_fec_wr_fifo_outside_acq_win 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(00000000202009231136,2020-09-23,'00000000202009231136_daq0_fec0_hdmi2_hybrid0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(24202009211646,2020-09-21,'24202009211646_daq0_fec0_hdmi4_hybrid0.txt','daq 0
 fec 0
-hdmi 2
+hdmi 4
 hybrid 0
 
 CKBC 4
@@ -84,9 +84,9 @@ period 4094
 position 65535
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(00000000202009231136,2020-09-23,'00000000202009231136_daq0_fec0_hdmi2_hybrid0_vmm0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(24202009211646,2020-09-21,'24202009211646_daq0_fec0_hdmi4_hybrid0_vmm0.txt','daq 0
 fec 0
-hdmi 2
+hdmi 4
 hybrid 0
 vmm 0
 
@@ -94,7 +94,7 @@ convtime_10 3
 convtime_6 0
 convtime_8 3
 gain 2
-monitoring 64
+monitoring 67
 nskipm_i 0
 peaktime 0
 reset1 0
@@ -849,9 +849,9 @@ channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(00000000202009231136,2020-09-23,'00000000202009231136_daq0_fec0_hdmi2_hybrid0_vmm1.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(24202009211646,2020-09-21,'24202009211646_daq0_fec0_hdmi4_hybrid0_vmm1.txt','daq 0
 fec 0
-hdmi 2
+hdmi 4
 hybrid 0
 vmm 1
 
@@ -859,7 +859,7 @@ convtime_10 3
 convtime_6 0
 convtime_8 3
 gain 2
-monitoring 64
+monitoring 67
 nskipm_i 0
 peaktime 0
 reset1 0

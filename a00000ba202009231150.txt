@@ -4854,3 +4854,7 @@ channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
 ');
+INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, vmm_class, brokenchannels, hybrid_class,Date) VALUES(a00000ba202009231150, a00000ba, 0, 'Mainz', 'A', '{}', 'a','2020-09-23');
+INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, vmm_class, brokenchannels, hybrid_class,Date) VALUES(a00000ba202009231150, a00000ba, 1, 'Mainz', 'A', '{}', 'a','2020-09-23');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('a00000ba202009231150','a00000ba','2020-09-23','Temperature','{points,Time since first start [s],Temperature [°C],VMM}');
+CREATE TABLE IF NOT EXISTS Temperature(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO Temperature(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('a00000ba202009231150','a00000ba','2020-09-23','Temperature','{points,Time since first start [s],Temperature [°C],VMM}','{0,5.042}','{38.3784,38.3784}','{37.8378,37.8378}');
