@@ -1,4 +1,4 @@
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(24202009211416,2020-09-21,'24202009211416.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('24202009211416','2020-09-21','24202009211416.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
 daq 0: fecs: 1
 	fec 0: hdmis: 1
 		hdmi 4: hybrids: 1
@@ -19,7 +19,7 @@ comment None
 output_path 
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(24202009211416,2020-09-21,'24202009211416_daq0_fec0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('24202009211416','2020-09-21','24202009211416_daq0_fec0.txt','daq 0
 fec 0
 
 tp_delay 81
@@ -65,7 +65,7 @@ globalCKBC 3
 ts_ext_trg 0
 open_fec_wr_fifo_outside_acq_win 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(24202009211416,2020-09-21,'24202009211416_daq0_fec0_hdmi4_hybrid0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('24202009211416','2020-09-21','24202009211416_daq0_fec0_hdmi4_hybrid0.txt','daq 0
 fec 0
 hdmi 4
 hybrid 0
@@ -84,7 +84,7 @@ period 4094
 position 65535
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(24202009211416,2020-09-21,'24202009211416_daq0_fec0_hdmi4_hybrid0_vmm0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('24202009211416','2020-09-21','24202009211416_daq0_fec0_hdmi4_hybrid0_vmm0.txt','daq 0
 fec 0
 hdmi 4
 hybrid 0
@@ -849,7 +849,7 @@ channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(24202009211416,2020-09-21,'24202009211416_daq0_fec0_hdmi4_hybrid0_vmm1.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('24202009211416','2020-09-21','24202009211416_daq0_fec0_hdmi4_hybrid0_vmm1.txt','daq 0
 fec 0
 hdmi 4
 hybrid 0
@@ -1614,8 +1614,8 @@ channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
 ');
-INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, monitoradcintercept, avgTDC, AvgCurr1_9V, Threshold, brokenchannels, Basenoise, hybrid_class, AvgCurr2_9V, monitoradcslope, Baseline, vmm_class, WorkingChannelsInt, adcintvertex, adcintcurvature,Date) VALUES(24202009211416, 24, 0, 'BonnPI', '28.538', '72.8249', '1.712', '16', '{}', '0.128', 'b', '0.109', '0.804364', '171.3', 'A', '64', '30.7776', '-0.0532866','2020-09-21');
-INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, monitoradcintercept, avgTDC, AvgCurr1_9V, Threshold, brokenchannels, Basenoise, hybrid_class, AvgCurr2_9V, monitoradcslope, Baseline, vmm_class, WorkingChannelsInt, adcintvertex, adcintcurvature,Date) VALUES(24202009211416, 24, 1, 'BonnPI', '20.9014', '68.9713', '1.712', '15', '{4,8}', '0.130', 'b', '0.109', '0.80634', '169.8', 'C', '62', '30.2359', '-0.0564256','2020-09-21');
+INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, monitoradcintercept, avgTDC, AvgCurr1_9V, Threshold, brokenchannels, Basenoise, hybrid_class, AvgCurr2_9V, monitoradcslope, Baseline, vmm_class, WorkingChannelsInt, adcintvertex, adcintcurvature,Date) VALUES('24202009211416','24', 0, 'BonnPI', '28.538', '72.8249', '1.712', '16', '{}', '0.128', 'b', '0.109', '0.804364', '171.3', 'A', '64', '30.7776', '-0.0532866','2020-09-21');
+INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, monitoradcintercept, avgTDC, AvgCurr1_9V, Threshold, brokenchannels, Basenoise, hybrid_class, AvgCurr2_9V, monitoradcslope, Baseline, vmm_class, WorkingChannelsInt, adcintvertex, adcintcurvature,Date) VALUES('24202009211416','24', 1, 'BonnPI', '20.9014', '68.9713', '1.712', '15', '{4,8}', '0.130', 'b', '0.109', '0.80634', '169.8', 'C', '62', '30.2359', '-0.0564256','2020-09-21');
 INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('24202009211416','24','2020-09-21','MonitoringADC','{points,Threshold DAC,ADC Value,VMM}');
 CREATE TABLE IF NOT EXISTS MonitoringADC(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO MonitoringADC(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('24202009211416','24','2020-09-21','MonitoringADC','{points,Threshold DAC,ADC Value,VMM}','{0,16,32,48,64,80,96,112,128,144,160,176,192,208,224,240,256,272,288,304,320,336,352,368,384,400,416,432,448,464,480,496,512,528,544,560,576,592,608,624,640,656,672,688,704,720,736,752,768,784,800,816,832,848,864,880,896,912,928,944,960,976,992,1008}','{33,45,57,69,82,94,107,120,132,145,158,170,183,196,208,221,234,247,259,272,285,297,310,323,336,349,362,375,387,400,413,426,439,452,465,478,491,503,516,529,542,555,568,581,594,607,620,633,646,659,672,685,698,711,724,737,751,764,777,790,803,816,829,842}','{30,37,49,62,74,87,99,112,125,137,150,163,175,188,201,213,226,239,252,265,278,290,303,316,329,342,355,368,381,394,406,419,432,445,458,471,484,497,510,523,536,549,561,575,588,601,614,627,640,653,666,679,692,706,719,732,745,758,771,784,797,810,823,836}');
 INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('24202009211416','24','2020-09-21','ThresholdScan','{points,Channel,Channel Threshold,VMM}');

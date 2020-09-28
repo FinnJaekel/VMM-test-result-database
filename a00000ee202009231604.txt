@@ -1,4 +1,4 @@
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(a00000ee202009231604,2020-09-23,'a00000ee202009231604.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a00000ee202009231604','2020-09-23','a00000ee202009231604.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
 daq 0: fecs: 1
 	fec 0: hdmis: 1
 		hdmi 2: hybrids: 1
@@ -19,7 +19,7 @@ comment None
 output_path 
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(a00000ee202009231604,2020-09-23,'a00000ee202009231604_daq0_fec0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a00000ee202009231604','2020-09-23','a00000ee202009231604_daq0_fec0.txt','daq 0
 fec 0
 
 tp_delay 81
@@ -65,7 +65,7 @@ globalCKBC 3
 ts_ext_trg 0
 open_fec_wr_fifo_outside_acq_win 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(a00000ee202009231604,2020-09-23,'a00000ee202009231604_daq0_fec0_hdmi2_hybrid0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a00000ee202009231604','2020-09-23','a00000ee202009231604_daq0_fec0_hdmi2_hybrid0.txt','daq 0
 fec 0
 hdmi 2
 hybrid 0
@@ -84,7 +84,7 @@ period 4094
 position 65535
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(a00000ee202009231604,2020-09-23,'a00000ee202009231604_daq0_fec0_hdmi2_hybrid0_vmm0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a00000ee202009231604','2020-09-23','a00000ee202009231604_daq0_fec0_hdmi2_hybrid0_vmm0.txt','daq 0
 fec 0
 hdmi 2
 hybrid 0
@@ -849,7 +849,7 @@ channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(a00000ee202009231604,2020-09-23,'a00000ee202009231604_daq0_fec0_hdmi2_hybrid0_vmm1.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a00000ee202009231604','2020-09-23','a00000ee202009231604_daq0_fec0_hdmi2_hybrid0_vmm1.txt','daq 0
 fec 0
 hdmi 2
 hybrid 0
@@ -1614,8 +1614,8 @@ channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
 ');
-INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, avgTDC, hybrid_class, Threshold, WorkingChannelsExt, AvgCurr1_9V, monitoradcintercept, adcextcurvature, AvgCurr2_9V, adcintvertex, WorkingChannelsInt, Baseline, monitoradcslope, adcextvertex, adcintcurvature, vmm_class, Basenoise, brokenchannels,Date) VALUES(a00000ee202009231604, a00000ee, 0, 'Mainz', '105.705', 'a', '16', '64', '1.698', '19.9688', '-0.0596205', '0.098', '34.9218', '64', '166.4', '0.795201', '35.5918', '-0.0485566', 'A', '0.210', '{}','2020-09-23');
-INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, avgTDC, hybrid_class, Threshold, WorkingChannelsExt, AvgCurr1_9V, monitoradcintercept, adcextcurvature, AvgCurr2_9V, adcintvertex, WorkingChannelsInt, Baseline, monitoradcslope, adcextvertex, adcintcurvature, vmm_class, Basenoise, brokenchannels,Date) VALUES(a00000ee202009231604, a00000ee, 1, 'Mainz', '103.966', 'a', '18', '64', '1.698', '25.1885', '-0.0639914', '0.098', '30.3663', '64', '162.7', '0.787635', '30.0887', '-0.0503371', 'A', '0.297', '{}','2020-09-23');
+INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, avgTDC, hybrid_class, Threshold, WorkingChannelsExt, AvgCurr1_9V, monitoradcintercept, adcextcurvature, AvgCurr2_9V, adcintvertex, WorkingChannelsInt, Baseline, monitoradcslope, adcextvertex, adcintcurvature, vmm_class, Basenoise, brokenchannels,Date) VALUES('a00000ee202009231604','a00000ee', 0, 'Mainz', '105.705', 'a', '16', '64', '1.698', '19.9688', '-0.0596205', '0.098', '34.9218', '64', '166.4', '0.795201', '35.5918', '-0.0485566', 'A', '0.210', '{}','2020-09-23');
+INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, avgTDC, hybrid_class, Threshold, WorkingChannelsExt, AvgCurr1_9V, monitoradcintercept, adcextcurvature, AvgCurr2_9V, adcintvertex, WorkingChannelsInt, Baseline, monitoradcslope, adcextvertex, adcintcurvature, vmm_class, Basenoise, brokenchannels,Date) VALUES('a00000ee202009231604','a00000ee', 1, 'Mainz', '103.966', 'a', '18', '64', '1.698', '25.1885', '-0.0639914', '0.098', '30.3663', '64', '162.7', '0.787635', '30.0887', '-0.0503371', 'A', '0.297', '{}','2020-09-23');
 INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('a00000ee202009231604','a00000ee','2020-09-23','ThresholdScan','{points,Channel,Channel Threshold,VMM}');
 CREATE TABLE IF NOT EXISTS ThresholdScan(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO ThresholdScan(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('a00000ee202009231604','a00000ee','2020-09-23','ThresholdScan','{points,Channel,Channel Threshold,VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{255,257,256,255,254,257,255,260,260,256,252,258,255,259,259,253,254,257,257,255,260,257,262,253,261,260,255,257,258,258,253,257,261,254,255,258,260,257,258,256,260,258,257,259,252,257,256,251,254,258,252,256,258,246,254,260,256,258,255,253,253,251,251,256}','{260,261,254,257,256,256,260,257,264,263,259,259,264,258,264,258,256,258,263,261,258,261,260,258,253,258,254,260,260,263,255,269,256,258,257,257,260,251,257,251,266,257,258,258,258,265,255,261,259,260,261,258,257,252,260,262,257,257,258,257,263,262,258,255}');
 INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('a00000ee202009231604','a00000ee','2020-09-23','ThresholdTrimabilityVMM0','{channels,thresholdtrim,measured threshold,Ch}');
