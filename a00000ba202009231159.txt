@@ -1614,3 +1614,9 @@ channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
 ');
+INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, AvgCurr1_9V, AvgCurr2_9V, vmm_class, hybrid_class, brokenchannels,Date) VALUES(a00000ba202009231159, a00000ba, 0, 'Mainz', '1.0885', '0.035', 'A', 'a', '{}','2020-09-23');
+INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, AvgCurr1_9V, AvgCurr2_9V, vmm_class, hybrid_class, brokenchannels,Date) VALUES(a00000ba202009231159, a00000ba, 1, 'Mainz', '1.0885', '0.035', 'A', 'a', '{}','2020-09-23');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('a00000ba202009231159','a00000ba','2020-09-23','Currentovertime','{points,Time since first start [s],Current [A],Current @CH}');
+CREATE TABLE IF NOT EXISTS Currentovertime(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO Currentovertime(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('a00000ba202009231159','a00000ba','2020-09-23','Currentovertime','{points,Time since first start [s],Current [A],Current @CH}','{0,0.321,0.608,0.928,1.232,1.536}','{0.958,1.021,1.053,1.124,1.13,1.138}','{0.024,0.022,0.033,0.038,0.037,0.049}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('a00000ba202009231159','a00000ba','2020-09-23','Temperature','{points,Time since first start [s],Temperature [°C],VMM}');
+CREATE TABLE IF NOT EXISTS Temperature(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO Temperature(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('a00000ba202009231159','a00000ba','2020-09-23','Temperature','{points,Time since first start [s],Temperature [°C],VMM}','{0}','{32.4324}','{33.5135}');

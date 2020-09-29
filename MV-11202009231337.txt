@@ -1,4 +1,4 @@
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a00000ba202009231151','2020-09-23','a00000ba202009231151.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(MV-11202009231337,2020-09-23,'MV-11202009231337.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
 daq 0: fecs: 1
 	fec 0: hdmis: 1
 		hdmi 2: hybrids: 1
@@ -19,7 +19,7 @@ comment None
 output_path 
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a00000ba202009231151','2020-09-23','a00000ba202009231151_daq0_fec0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(MV-11202009231337,2020-09-23,'MV-11202009231337_daq0_fec0.txt','daq 0
 fec 0
 
 tp_delay 81
@@ -36,7 +36,7 @@ s6_port 6602
 evbld_mode Frame_Cnt
 evbld_infodata HINFO+Datalength
 highres false
-triggermode 0
+triggermode 1
 res2 0
 res3 0
 sL0enaV 0
@@ -65,7 +65,7 @@ globalCKBC 3
 ts_ext_trg 0
 open_fec_wr_fifo_outside_acq_win 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a00000ba202009231151','2020-09-23','a00000ba202009231151_daq0_fec0_hdmi2_hybrid0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(MV-11202009231337,2020-09-23,'MV-11202009231337_daq0_fec0_hdmi2_hybrid0.txt','daq 0
 fec 0
 hdmi 2
 hybrid 0
@@ -84,7 +84,7 @@ period 4094
 position 65535
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a00000ba202009231151','2020-09-23','a00000ba202009231151_daq0_fec0_hdmi2_hybrid0_vmm0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(MV-11202009231337,2020-09-23,'MV-11202009231337_daq0_fec0_hdmi2_hybrid0_vmm0.txt','daq 0
 fec 0
 hdmi 2
 hybrid 0
@@ -849,7 +849,7 @@ channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a00000ba202009231151','2020-09-23','a00000ba202009231151_daq0_fec0_hdmi2_hybrid0_vmm1.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(MV-11202009231337,2020-09-23,'MV-11202009231337_daq0_fec0_hdmi2_hybrid0_vmm1.txt','daq 0
 fec 0
 hdmi 2
 hybrid 0
@@ -1614,11 +1614,7 @@ channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
 ');
-INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, vmm_class, brokenchannels, hybrid_class,Date) VALUES(a00000ba202009231151, a00000ba, 0, 'Mainz', 'A', '{}', 'a','2020-09-23');
-INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, vmm_class, brokenchannels, hybrid_class,Date) VALUES(a00000ba202009231151, a00000ba, 1, 'Mainz', 'A', '{}', 'a','2020-09-23');
-INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('a00000ba202009231151','a00000ba','2020-09-23','Temperature','{points,Time since first start [s],Temperature [°C],VMM}');
-CREATE TABLE IF NOT EXISTS Temperature(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO Temperature(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('a00000ba202009231151','a00000ba','2020-09-23','Temperature','{points,Time since first start [s],Temperature [°C],VMM}','{0,5.042,68.371}','{38.3784,38.3784,34.0541}','{37.8378,37.8378,34.5946}');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(a00000ba202009231151,2020-09-23,'a00000ba202009231151.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(MV-11202009231337,2020-09-23,'MV-11202009231337.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
 daq 0: fecs: 1
 	fec 0: hdmis: 1
 		hdmi 2: hybrids: 1
@@ -1639,7 +1635,7 @@ comment None
 output_path 
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(a00000ba202009231151,2020-09-23,'a00000ba202009231151_daq0_fec0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(MV-11202009231337,2020-09-23,'MV-11202009231337_daq0_fec0.txt','daq 0
 fec 0
 
 tp_delay 81
@@ -1685,7 +1681,7 @@ globalCKBC 3
 ts_ext_trg 0
 open_fec_wr_fifo_outside_acq_win 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(a00000ba202009231151,2020-09-23,'a00000ba202009231151_daq0_fec0_hdmi2_hybrid0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(MV-11202009231337,2020-09-23,'MV-11202009231337_daq0_fec0_hdmi2_hybrid0.txt','daq 0
 fec 0
 hdmi 2
 hybrid 0
@@ -1704,7 +1700,7 @@ period 4094
 position 65535
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(a00000ba202009231151,2020-09-23,'a00000ba202009231151_daq0_fec0_hdmi2_hybrid0_vmm0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(MV-11202009231337,2020-09-23,'MV-11202009231337_daq0_fec0_hdmi2_hybrid0_vmm0.txt','daq 0
 fec 0
 hdmi 2
 hybrid 0
@@ -1714,7 +1710,7 @@ convtime_10 3
 convtime_6 0
 convtime_8 3
 gain 2
-monitoring 64
+monitoring 67
 nskipm_i 0
 peaktime 0
 reset1 0
@@ -2469,7 +2465,7 @@ channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(a00000ba202009231151,2020-09-23,'a00000ba202009231151_daq0_fec0_hdmi2_hybrid0_vmm1.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES(MV-11202009231337,2020-09-23,'MV-11202009231337_daq0_fec0_hdmi2_hybrid0_vmm1.txt','daq 0
 fec 0
 hdmi 2
 hybrid 0
@@ -2479,7 +2475,7 @@ convtime_10 3
 convtime_6 0
 convtime_8 3
 gain 2
-monitoring 64
+monitoring 67
 nskipm_i 0
 peaktime 0
 reset1 0
