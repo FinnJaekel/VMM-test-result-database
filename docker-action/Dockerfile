@@ -6,6 +6,8 @@ LABEL description="github actions test"
 RUN apt update && apt install -y \
     sqlite3 
 
+RUN cd ..
+
 RUN cat createdb.sql *.txt | sqlite3 testdb.db
 
 RUN git add testdb.db && git commit -m "new DB" && git push 
