@@ -2,6 +2,6 @@
 
 ls
 cat createdb.sql *.txt | sqlite3 testdb.db
-ls
+
 
 
