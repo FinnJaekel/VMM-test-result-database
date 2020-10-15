@@ -22,3 +22,16 @@ jobs:
         add: "testdb.db"
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Touch .nojekyll
+      run: |
+        mkdir db
+        mv testdb.db db/
+        touch db/.nojekyll
+        
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: ./db
+        force_orphan: true
