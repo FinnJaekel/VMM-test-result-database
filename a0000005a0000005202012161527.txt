@@ -1,4 +1,4 @@
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a0000005a0000005202012161527','2020-12-16','a0000005a0000005202012161527.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('84ada000a0000005202012161527','2020-12-16','84ada000a0000005202012161527.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
 daq 0: fecs: 1
 	fec 0: hdmis: 1
 		hdmi 0: hybrids: 1
@@ -19,7 +19,7 @@ comment None
 output_path 
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a0000005a0000005202012161527','2020-12-16','a0000005a0000005202012161527_daq0_fec0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('84ada000a0000005202012161527','2020-12-16','84ada000a0000005202012161527_daq0_fec0.txt','daq 0
 fec 0
 
 tp_delay 81
@@ -65,7 +65,7 @@ globalCKBC 2
 ts_ext_trg 0
 open_fec_wr_fifo_outside_acq_win 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a0000005a0000005202012161527','2020-12-16','a0000005a0000005202012161527_daq0_fec0_hdmi0_hybrid0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('84ada000a0000005202012161527','2020-12-16','84ada000a0000005202012161527_daq0_fec0_hdmi0_hybrid0.txt','daq 0
 fec 0
 hdmi 0
 hybrid 0
@@ -81,7 +81,7 @@ Xaxis 0
 position 65535
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a0000005a0000005202012161527','2020-12-16','a0000005a0000005202012161527_daq0_fec0_hdmi0_hybrid0_vmm0.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('84ada000a0000005202012161527','2020-12-16','84ada000a0000005202012161527_daq0_fec0_hdmi0_hybrid0_vmm0.txt','daq 0
 fec 0
 hdmi 0
 hybrid 0
@@ -846,7 +846,7 @@ channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('a0000005a0000005202012161527','2020-12-16','a0000005a0000005202012161527_daq0_fec0_hdmi0_hybrid0_vmm1.txt','daq 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('84ada000a0000005202012161527','2020-12-16','84ada000a0000005202012161527_daq0_fec0_hdmi0_hybrid0_vmm1.txt','daq 0
 fec 0
 hdmi 0
 hybrid 0
