@@ -1,0 +1,1645 @@
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('c41da000a0000065202103301413','2021-03-30','c41da000a0000065202103301413.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
+daq 0: fecs: 1
+	fec 0: hdmis: 1
+		hdmi 0: hybrids: 1
+			hybrid 0: x 65535, vmms: 2
+				vmm 0
+				vmm 1
+// daq general settings
+ignore16 false
+debug 0
+run_count 20
+mapping_file mini2_map.txt
+output_filename binary_dump.txt
+config_filename 
+vmm_id_list 
+ip_list 
+config_version 
+comment None
+output_path 
+
+');
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('c41da000a0000065202103301413','2021-03-30','c41da000a0000065202103301413_daq0_fec0.txt','daq 0
+fec 0
+
+tp_delay 81
+readout_cycle 4094
+acq_sync 100
+acq_window 3700
+run_mode pulser
+bcid_reset 0
+fec_port 6007
+daq_port 6006
+vmmasic_port 6603
+vmmapp_port 6600
+s6_port 6602
+evbld_mode ERROR
+evbld_infodata ERROR
+highres ERROR
+triggermode 1
+res2 0
+res3 0
+sL0enaV 0
+sL0ena 0
+l0offset 0
+offset 0
+rollover 0
+window 0
+truncate 0
+nskip 0
+sL0cktest 0
+ip1 10
+ip2 0
+ip3 0
+ip4 2
+i2c_port 6604
+fec_sys_port 6023
+triggered_mode 0
+time_offset_triggerperiod 10
+time_offset_BCID 0
+time_window_BCID 4095
+trigger_pulse_delay 0
+clear_S6_fifo 0
+acceptance_window 0
+globalCKBC 2
+ts_ext_trg 0
+open_fec_wr_fifo_outside_acq_win 0
+');
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('c41da000a0000065202103301413','2021-03-30','c41da000a0000065202103301413_daq0_fec0_hdmi0_hybrid0.txt','daq 0
+fec 0
+hdmi 0
+hybrid 0
+
+CKBC 2
+CKBC_duty 0
+CKBC_skew 0
+CKDT 2
+TP_pol 0
+TP_skew 0
+TP_width 0
+Xaxis 0
+position 65535
+
+');
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('c41da000a0000065202103301413','2021-03-30','c41da000a0000065202103301413_daq0_fec0_hdmi0_hybrid0_vmm0.txt','daq 0
+fec 0
+hdmi 0
+hybrid 0
+vmm 0
+
+convtime_10 3
+convtime_6 0
+convtime_8 3
+gain 2
+monitoring 67
+nskipm_i 0
+peaktime 0
+reset1 0
+reset2 0
+s10b 1
+s32 0
+s6b 0
+s8b 1
+sL0ckinv 0
+sL0dckinv 0
+sbfm 1
+sbfp 0
+sbft 0
+sbip 1
+sbmx 0
+scmx 0
+sdck6b 0
+sdcka 0
+sdcks 1
+sdp 0
+sdp_2 300
+sdrv 0
+sdt 300
+sfa 0
+sfam 0
+sfm 0
+sfrst 0
+slg 0
+slvs 0
+slvs6b 0
+slvsart 0
+slvsbc 0
+slvsdt 0
+slvsena 0
+slvstk 0
+slvstki 0
+slvstp 0
+sng 0
+sp 0
+srat 0
+srec 0
+ssart 0
+ssh 0
+stc 0
+stcr 0
+stlc 0
+stot 0
+stpp 0
+sttt 0
+
+channel 0 ADC0_10 0
+channel 0 ADC0_6 0
+channel 0 ADC0_8 0
+channel 0 sc 0
+channel 0 sd 0
+channel 0 sl 0
+channel 0 sm 0
+channel 0 smx 0
+channel 0 st 0
+channel 0 sth 0
+
+channel 1 ADC0_10 0
+channel 1 ADC0_6 0
+channel 1 ADC0_8 0
+channel 1 sc 0
+channel 1 sd 0
+channel 1 sl 0
+channel 1 sm 0
+channel 1 smx 0
+channel 1 st 0
+channel 1 sth 0
+
+channel 2 ADC0_10 0
+channel 2 ADC0_6 0
+channel 2 ADC0_8 0
+channel 2 sc 0
+channel 2 sd 0
+channel 2 sl 0
+channel 2 sm 0
+channel 2 smx 0
+channel 2 st 0
+channel 2 sth 0
+
+channel 3 ADC0_10 0
+channel 3 ADC0_6 0
+channel 3 ADC0_8 0
+channel 3 sc 0
+channel 3 sd 0
+channel 3 sl 0
+channel 3 sm 0
+channel 3 smx 0
+channel 3 st 0
+channel 3 sth 0
+
+channel 4 ADC0_10 0
+channel 4 ADC0_6 0
+channel 4 ADC0_8 0
+channel 4 sc 0
+channel 4 sd 0
+channel 4 sl 0
+channel 4 sm 0
+channel 4 smx 0
+channel 4 st 0
+channel 4 sth 0
+
+channel 5 ADC0_10 0
+channel 5 ADC0_6 0
+channel 5 ADC0_8 0
+channel 5 sc 0
+channel 5 sd 0
+channel 5 sl 0
+channel 5 sm 0
+channel 5 smx 0
+channel 5 st 0
+channel 5 sth 0
+
+channel 6 ADC0_10 0
+channel 6 ADC0_6 0
+channel 6 ADC0_8 0
+channel 6 sc 0
+channel 6 sd 0
+channel 6 sl 0
+channel 6 sm 0
+channel 6 smx 0
+channel 6 st 0
+channel 6 sth 0
+
+channel 7 ADC0_10 0
+channel 7 ADC0_6 0
+channel 7 ADC0_8 0
+channel 7 sc 0
+channel 7 sd 0
+channel 7 sl 0
+channel 7 sm 0
+channel 7 smx 0
+channel 7 st 0
+channel 7 sth 0
+
+channel 8 ADC0_10 0
+channel 8 ADC0_6 0
+channel 8 ADC0_8 0
+channel 8 sc 0
+channel 8 sd 0
+channel 8 sl 0
+channel 8 sm 0
+channel 8 smx 0
+channel 8 st 0
+channel 8 sth 0
+
+channel 9 ADC0_10 0
+channel 9 ADC0_6 0
+channel 9 ADC0_8 0
+channel 9 sc 0
+channel 9 sd 0
+channel 9 sl 0
+channel 9 sm 0
+channel 9 smx 0
+channel 9 st 0
+channel 9 sth 0
+
+channel 10 ADC0_10 0
+channel 10 ADC0_6 0
+channel 10 ADC0_8 0
+channel 10 sc 0
+channel 10 sd 0
+channel 10 sl 0
+channel 10 sm 0
+channel 10 smx 0
+channel 10 st 0
+channel 10 sth 0
+
+channel 11 ADC0_10 0
+channel 11 ADC0_6 0
+channel 11 ADC0_8 0
+channel 11 sc 0
+channel 11 sd 0
+channel 11 sl 0
+channel 11 sm 0
+channel 11 smx 0
+channel 11 st 0
+channel 11 sth 0
+
+channel 12 ADC0_10 0
+channel 12 ADC0_6 0
+channel 12 ADC0_8 0
+channel 12 sc 0
+channel 12 sd 0
+channel 12 sl 0
+channel 12 sm 0
+channel 12 smx 0
+channel 12 st 0
+channel 12 sth 0
+
+channel 13 ADC0_10 0
+channel 13 ADC0_6 0
+channel 13 ADC0_8 0
+channel 13 sc 0
+channel 13 sd 0
+channel 13 sl 0
+channel 13 sm 0
+channel 13 smx 0
+channel 13 st 0
+channel 13 sth 0
+
+channel 14 ADC0_10 0
+channel 14 ADC0_6 0
+channel 14 ADC0_8 0
+channel 14 sc 0
+channel 14 sd 0
+channel 14 sl 0
+channel 14 sm 0
+channel 14 smx 0
+channel 14 st 0
+channel 14 sth 0
+
+channel 15 ADC0_10 0
+channel 15 ADC0_6 0
+channel 15 ADC0_8 0
+channel 15 sc 0
+channel 15 sd 0
+channel 15 sl 0
+channel 15 sm 0
+channel 15 smx 0
+channel 15 st 0
+channel 15 sth 0
+
+channel 16 ADC0_10 0
+channel 16 ADC0_6 0
+channel 16 ADC0_8 0
+channel 16 sc 0
+channel 16 sd 0
+channel 16 sl 0
+channel 16 sm 0
+channel 16 smx 0
+channel 16 st 0
+channel 16 sth 0
+
+channel 17 ADC0_10 0
+channel 17 ADC0_6 0
+channel 17 ADC0_8 0
+channel 17 sc 0
+channel 17 sd 0
+channel 17 sl 0
+channel 17 sm 0
+channel 17 smx 0
+channel 17 st 0
+channel 17 sth 0
+
+channel 18 ADC0_10 0
+channel 18 ADC0_6 0
+channel 18 ADC0_8 0
+channel 18 sc 0
+channel 18 sd 0
+channel 18 sl 0
+channel 18 sm 0
+channel 18 smx 0
+channel 18 st 0
+channel 18 sth 0
+
+channel 19 ADC0_10 0
+channel 19 ADC0_6 0
+channel 19 ADC0_8 0
+channel 19 sc 0
+channel 19 sd 0
+channel 19 sl 0
+channel 19 sm 0
+channel 19 smx 0
+channel 19 st 0
+channel 19 sth 0
+
+channel 20 ADC0_10 0
+channel 20 ADC0_6 0
+channel 20 ADC0_8 0
+channel 20 sc 0
+channel 20 sd 0
+channel 20 sl 0
+channel 20 sm 0
+channel 20 smx 0
+channel 20 st 0
+channel 20 sth 0
+
+channel 21 ADC0_10 0
+channel 21 ADC0_6 0
+channel 21 ADC0_8 0
+channel 21 sc 0
+channel 21 sd 0
+channel 21 sl 0
+channel 21 sm 0
+channel 21 smx 0
+channel 21 st 0
+channel 21 sth 0
+
+channel 22 ADC0_10 0
+channel 22 ADC0_6 0
+channel 22 ADC0_8 0
+channel 22 sc 0
+channel 22 sd 0
+channel 22 sl 0
+channel 22 sm 0
+channel 22 smx 0
+channel 22 st 0
+channel 22 sth 0
+
+channel 23 ADC0_10 0
+channel 23 ADC0_6 0
+channel 23 ADC0_8 0
+channel 23 sc 0
+channel 23 sd 0
+channel 23 sl 0
+channel 23 sm 0
+channel 23 smx 0
+channel 23 st 0
+channel 23 sth 0
+
+channel 24 ADC0_10 0
+channel 24 ADC0_6 0
+channel 24 ADC0_8 0
+channel 24 sc 0
+channel 24 sd 0
+channel 24 sl 0
+channel 24 sm 0
+channel 24 smx 0
+channel 24 st 0
+channel 24 sth 0
+
+channel 25 ADC0_10 0
+channel 25 ADC0_6 0
+channel 25 ADC0_8 0
+channel 25 sc 0
+channel 25 sd 0
+channel 25 sl 0
+channel 25 sm 0
+channel 25 smx 0
+channel 25 st 0
+channel 25 sth 0
+
+channel 26 ADC0_10 0
+channel 26 ADC0_6 0
+channel 26 ADC0_8 0
+channel 26 sc 0
+channel 26 sd 0
+channel 26 sl 0
+channel 26 sm 0
+channel 26 smx 0
+channel 26 st 0
+channel 26 sth 0
+
+channel 27 ADC0_10 0
+channel 27 ADC0_6 0
+channel 27 ADC0_8 0
+channel 27 sc 0
+channel 27 sd 0
+channel 27 sl 0
+channel 27 sm 0
+channel 27 smx 0
+channel 27 st 0
+channel 27 sth 0
+
+channel 28 ADC0_10 0
+channel 28 ADC0_6 0
+channel 28 ADC0_8 0
+channel 28 sc 0
+channel 28 sd 0
+channel 28 sl 0
+channel 28 sm 0
+channel 28 smx 0
+channel 28 st 0
+channel 28 sth 0
+
+channel 29 ADC0_10 0
+channel 29 ADC0_6 0
+channel 29 ADC0_8 0
+channel 29 sc 0
+channel 29 sd 0
+channel 29 sl 0
+channel 29 sm 0
+channel 29 smx 0
+channel 29 st 0
+channel 29 sth 0
+
+channel 30 ADC0_10 0
+channel 30 ADC0_6 0
+channel 30 ADC0_8 0
+channel 30 sc 0
+channel 30 sd 0
+channel 30 sl 0
+channel 30 sm 0
+channel 30 smx 0
+channel 30 st 0
+channel 30 sth 0
+
+channel 31 ADC0_10 0
+channel 31 ADC0_6 0
+channel 31 ADC0_8 0
+channel 31 sc 0
+channel 31 sd 0
+channel 31 sl 0
+channel 31 sm 0
+channel 31 smx 0
+channel 31 st 0
+channel 31 sth 0
+
+channel 32 ADC0_10 0
+channel 32 ADC0_6 0
+channel 32 ADC0_8 0
+channel 32 sc 0
+channel 32 sd 0
+channel 32 sl 0
+channel 32 sm 0
+channel 32 smx 0
+channel 32 st 0
+channel 32 sth 0
+
+channel 33 ADC0_10 0
+channel 33 ADC0_6 0
+channel 33 ADC0_8 0
+channel 33 sc 0
+channel 33 sd 0
+channel 33 sl 0
+channel 33 sm 0
+channel 33 smx 0
+channel 33 st 0
+channel 33 sth 0
+
+channel 34 ADC0_10 0
+channel 34 ADC0_6 0
+channel 34 ADC0_8 0
+channel 34 sc 0
+channel 34 sd 0
+channel 34 sl 0
+channel 34 sm 0
+channel 34 smx 0
+channel 34 st 0
+channel 34 sth 0
+
+channel 35 ADC0_10 0
+channel 35 ADC0_6 0
+channel 35 ADC0_8 0
+channel 35 sc 0
+channel 35 sd 0
+channel 35 sl 0
+channel 35 sm 0
+channel 35 smx 0
+channel 35 st 0
+channel 35 sth 0
+
+channel 36 ADC0_10 0
+channel 36 ADC0_6 0
+channel 36 ADC0_8 0
+channel 36 sc 0
+channel 36 sd 0
+channel 36 sl 0
+channel 36 sm 0
+channel 36 smx 0
+channel 36 st 0
+channel 36 sth 0
+
+channel 37 ADC0_10 0
+channel 37 ADC0_6 0
+channel 37 ADC0_8 0
+channel 37 sc 0
+channel 37 sd 0
+channel 37 sl 0
+channel 37 sm 0
+channel 37 smx 0
+channel 37 st 0
+channel 37 sth 0
+
+channel 38 ADC0_10 0
+channel 38 ADC0_6 0
+channel 38 ADC0_8 0
+channel 38 sc 0
+channel 38 sd 0
+channel 38 sl 0
+channel 38 sm 0
+channel 38 smx 0
+channel 38 st 0
+channel 38 sth 0
+
+channel 39 ADC0_10 0
+channel 39 ADC0_6 0
+channel 39 ADC0_8 0
+channel 39 sc 0
+channel 39 sd 0
+channel 39 sl 0
+channel 39 sm 0
+channel 39 smx 0
+channel 39 st 0
+channel 39 sth 0
+
+channel 40 ADC0_10 0
+channel 40 ADC0_6 0
+channel 40 ADC0_8 0
+channel 40 sc 0
+channel 40 sd 0
+channel 40 sl 0
+channel 40 sm 0
+channel 40 smx 0
+channel 40 st 0
+channel 40 sth 0
+
+channel 41 ADC0_10 0
+channel 41 ADC0_6 0
+channel 41 ADC0_8 0
+channel 41 sc 0
+channel 41 sd 0
+channel 41 sl 0
+channel 41 sm 0
+channel 41 smx 0
+channel 41 st 0
+channel 41 sth 0
+
+channel 42 ADC0_10 0
+channel 42 ADC0_6 0
+channel 42 ADC0_8 0
+channel 42 sc 0
+channel 42 sd 0
+channel 42 sl 0
+channel 42 sm 0
+channel 42 smx 0
+channel 42 st 0
+channel 42 sth 0
+
+channel 43 ADC0_10 0
+channel 43 ADC0_6 0
+channel 43 ADC0_8 0
+channel 43 sc 0
+channel 43 sd 0
+channel 43 sl 0
+channel 43 sm 0
+channel 43 smx 0
+channel 43 st 0
+channel 43 sth 0
+
+channel 44 ADC0_10 0
+channel 44 ADC0_6 0
+channel 44 ADC0_8 0
+channel 44 sc 0
+channel 44 sd 0
+channel 44 sl 0
+channel 44 sm 0
+channel 44 smx 0
+channel 44 st 0
+channel 44 sth 0
+
+channel 45 ADC0_10 0
+channel 45 ADC0_6 0
+channel 45 ADC0_8 0
+channel 45 sc 0
+channel 45 sd 0
+channel 45 sl 0
+channel 45 sm 0
+channel 45 smx 0
+channel 45 st 0
+channel 45 sth 0
+
+channel 46 ADC0_10 0
+channel 46 ADC0_6 0
+channel 46 ADC0_8 0
+channel 46 sc 0
+channel 46 sd 0
+channel 46 sl 0
+channel 46 sm 0
+channel 46 smx 0
+channel 46 st 0
+channel 46 sth 0
+
+channel 47 ADC0_10 0
+channel 47 ADC0_6 0
+channel 47 ADC0_8 0
+channel 47 sc 0
+channel 47 sd 0
+channel 47 sl 0
+channel 47 sm 0
+channel 47 smx 0
+channel 47 st 0
+channel 47 sth 0
+
+channel 48 ADC0_10 0
+channel 48 ADC0_6 0
+channel 48 ADC0_8 0
+channel 48 sc 0
+channel 48 sd 0
+channel 48 sl 0
+channel 48 sm 0
+channel 48 smx 0
+channel 48 st 0
+channel 48 sth 0
+
+channel 49 ADC0_10 0
+channel 49 ADC0_6 0
+channel 49 ADC0_8 0
+channel 49 sc 0
+channel 49 sd 0
+channel 49 sl 0
+channel 49 sm 0
+channel 49 smx 0
+channel 49 st 0
+channel 49 sth 0
+
+channel 50 ADC0_10 0
+channel 50 ADC0_6 0
+channel 50 ADC0_8 0
+channel 50 sc 0
+channel 50 sd 0
+channel 50 sl 0
+channel 50 sm 0
+channel 50 smx 0
+channel 50 st 0
+channel 50 sth 0
+
+channel 51 ADC0_10 0
+channel 51 ADC0_6 0
+channel 51 ADC0_8 0
+channel 51 sc 0
+channel 51 sd 0
+channel 51 sl 0
+channel 51 sm 0
+channel 51 smx 0
+channel 51 st 0
+channel 51 sth 0
+
+channel 52 ADC0_10 0
+channel 52 ADC0_6 0
+channel 52 ADC0_8 0
+channel 52 sc 0
+channel 52 sd 0
+channel 52 sl 0
+channel 52 sm 0
+channel 52 smx 0
+channel 52 st 0
+channel 52 sth 0
+
+channel 53 ADC0_10 0
+channel 53 ADC0_6 0
+channel 53 ADC0_8 0
+channel 53 sc 0
+channel 53 sd 0
+channel 53 sl 0
+channel 53 sm 0
+channel 53 smx 0
+channel 53 st 0
+channel 53 sth 0
+
+channel 54 ADC0_10 0
+channel 54 ADC0_6 0
+channel 54 ADC0_8 0
+channel 54 sc 0
+channel 54 sd 0
+channel 54 sl 0
+channel 54 sm 0
+channel 54 smx 0
+channel 54 st 0
+channel 54 sth 0
+
+channel 55 ADC0_10 0
+channel 55 ADC0_6 0
+channel 55 ADC0_8 0
+channel 55 sc 0
+channel 55 sd 0
+channel 55 sl 0
+channel 55 sm 0
+channel 55 smx 0
+channel 55 st 0
+channel 55 sth 0
+
+channel 56 ADC0_10 0
+channel 56 ADC0_6 0
+channel 56 ADC0_8 0
+channel 56 sc 0
+channel 56 sd 0
+channel 56 sl 0
+channel 56 sm 0
+channel 56 smx 0
+channel 56 st 0
+channel 56 sth 0
+
+channel 57 ADC0_10 0
+channel 57 ADC0_6 0
+channel 57 ADC0_8 0
+channel 57 sc 0
+channel 57 sd 0
+channel 57 sl 0
+channel 57 sm 0
+channel 57 smx 0
+channel 57 st 0
+channel 57 sth 0
+
+channel 58 ADC0_10 0
+channel 58 ADC0_6 0
+channel 58 ADC0_8 0
+channel 58 sc 0
+channel 58 sd 0
+channel 58 sl 0
+channel 58 sm 0
+channel 58 smx 0
+channel 58 st 0
+channel 58 sth 0
+
+channel 59 ADC0_10 0
+channel 59 ADC0_6 0
+channel 59 ADC0_8 0
+channel 59 sc 0
+channel 59 sd 0
+channel 59 sl 0
+channel 59 sm 0
+channel 59 smx 0
+channel 59 st 0
+channel 59 sth 0
+
+channel 60 ADC0_10 0
+channel 60 ADC0_6 0
+channel 60 ADC0_8 0
+channel 60 sc 0
+channel 60 sd 0
+channel 60 sl 0
+channel 60 sm 0
+channel 60 smx 0
+channel 60 st 0
+channel 60 sth 0
+
+channel 61 ADC0_10 0
+channel 61 ADC0_6 0
+channel 61 ADC0_8 0
+channel 61 sc 0
+channel 61 sd 0
+channel 61 sl 0
+channel 61 sm 0
+channel 61 smx 0
+channel 61 st 0
+channel 61 sth 0
+
+channel 62 ADC0_10 0
+channel 62 ADC0_6 0
+channel 62 ADC0_8 0
+channel 62 sc 0
+channel 62 sd 0
+channel 62 sl 0
+channel 62 sm 0
+channel 62 smx 0
+channel 62 st 0
+channel 62 sth 0
+
+channel 63 ADC0_10 0
+channel 63 ADC0_6 0
+channel 63 ADC0_8 0
+channel 63 sc 0
+channel 63 sd 0
+channel 63 sl 0
+channel 63 sm 0
+channel 63 smx 0
+channel 63 st 0
+channel 63 sth 0
+');
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('c41da000a0000065202103301413','2021-03-30','c41da000a0000065202103301413_daq0_fec0_hdmi0_hybrid0_vmm1.txt','daq 0
+fec 0
+hdmi 0
+hybrid 0
+vmm 1
+
+convtime_10 3
+convtime_6 0
+convtime_8 3
+gain 2
+monitoring 67
+nskipm_i 0
+peaktime 0
+reset1 0
+reset2 0
+s10b 1
+s32 0
+s6b 0
+s8b 1
+sL0ckinv 0
+sL0dckinv 0
+sbfm 1
+sbfp 0
+sbft 0
+sbip 1
+sbmx 0
+scmx 0
+sdck6b 0
+sdcka 0
+sdcks 1
+sdp 0
+sdp_2 300
+sdrv 0
+sdt 300
+sfa 0
+sfam 0
+sfm 0
+sfrst 0
+slg 0
+slvs 0
+slvs6b 0
+slvsart 0
+slvsbc 0
+slvsdt 0
+slvsena 0
+slvstk 0
+slvstki 0
+slvstp 0
+sng 0
+sp 0
+srat 0
+srec 0
+ssart 0
+ssh 0
+stc 0
+stcr 0
+stlc 0
+stot 0
+stpp 0
+sttt 0
+
+channel 0 ADC0_10 0
+channel 0 ADC0_6 0
+channel 0 ADC0_8 0
+channel 0 sc 0
+channel 0 sd 0
+channel 0 sl 0
+channel 0 sm 0
+channel 0 smx 0
+channel 0 st 0
+channel 0 sth 0
+
+channel 1 ADC0_10 0
+channel 1 ADC0_6 0
+channel 1 ADC0_8 0
+channel 1 sc 0
+channel 1 sd 0
+channel 1 sl 0
+channel 1 sm 0
+channel 1 smx 0
+channel 1 st 0
+channel 1 sth 0
+
+channel 2 ADC0_10 0
+channel 2 ADC0_6 0
+channel 2 ADC0_8 0
+channel 2 sc 0
+channel 2 sd 0
+channel 2 sl 0
+channel 2 sm 0
+channel 2 smx 0
+channel 2 st 0
+channel 2 sth 0
+
+channel 3 ADC0_10 0
+channel 3 ADC0_6 0
+channel 3 ADC0_8 0
+channel 3 sc 0
+channel 3 sd 0
+channel 3 sl 0
+channel 3 sm 0
+channel 3 smx 0
+channel 3 st 0
+channel 3 sth 0
+
+channel 4 ADC0_10 0
+channel 4 ADC0_6 0
+channel 4 ADC0_8 0
+channel 4 sc 0
+channel 4 sd 0
+channel 4 sl 0
+channel 4 sm 0
+channel 4 smx 0
+channel 4 st 0
+channel 4 sth 0
+
+channel 5 ADC0_10 0
+channel 5 ADC0_6 0
+channel 5 ADC0_8 0
+channel 5 sc 0
+channel 5 sd 0
+channel 5 sl 0
+channel 5 sm 0
+channel 5 smx 0
+channel 5 st 0
+channel 5 sth 0
+
+channel 6 ADC0_10 0
+channel 6 ADC0_6 0
+channel 6 ADC0_8 0
+channel 6 sc 0
+channel 6 sd 0
+channel 6 sl 0
+channel 6 sm 0
+channel 6 smx 0
+channel 6 st 0
+channel 6 sth 0
+
+channel 7 ADC0_10 0
+channel 7 ADC0_6 0
+channel 7 ADC0_8 0
+channel 7 sc 0
+channel 7 sd 0
+channel 7 sl 0
+channel 7 sm 0
+channel 7 smx 0
+channel 7 st 0
+channel 7 sth 0
+
+channel 8 ADC0_10 0
+channel 8 ADC0_6 0
+channel 8 ADC0_8 0
+channel 8 sc 0
+channel 8 sd 0
+channel 8 sl 0
+channel 8 sm 0
+channel 8 smx 0
+channel 8 st 0
+channel 8 sth 0
+
+channel 9 ADC0_10 0
+channel 9 ADC0_6 0
+channel 9 ADC0_8 0
+channel 9 sc 0
+channel 9 sd 0
+channel 9 sl 0
+channel 9 sm 0
+channel 9 smx 0
+channel 9 st 0
+channel 9 sth 0
+
+channel 10 ADC0_10 0
+channel 10 ADC0_6 0
+channel 10 ADC0_8 0
+channel 10 sc 0
+channel 10 sd 0
+channel 10 sl 0
+channel 10 sm 0
+channel 10 smx 0
+channel 10 st 0
+channel 10 sth 0
+
+channel 11 ADC0_10 0
+channel 11 ADC0_6 0
+channel 11 ADC0_8 0
+channel 11 sc 0
+channel 11 sd 0
+channel 11 sl 0
+channel 11 sm 0
+channel 11 smx 0
+channel 11 st 0
+channel 11 sth 0
+
+channel 12 ADC0_10 0
+channel 12 ADC0_6 0
+channel 12 ADC0_8 0
+channel 12 sc 0
+channel 12 sd 0
+channel 12 sl 0
+channel 12 sm 0
+channel 12 smx 0
+channel 12 st 0
+channel 12 sth 0
+
+channel 13 ADC0_10 0
+channel 13 ADC0_6 0
+channel 13 ADC0_8 0
+channel 13 sc 0
+channel 13 sd 0
+channel 13 sl 0
+channel 13 sm 0
+channel 13 smx 0
+channel 13 st 0
+channel 13 sth 0
+
+channel 14 ADC0_10 0
+channel 14 ADC0_6 0
+channel 14 ADC0_8 0
+channel 14 sc 0
+channel 14 sd 0
+channel 14 sl 0
+channel 14 sm 0
+channel 14 smx 0
+channel 14 st 0
+channel 14 sth 0
+
+channel 15 ADC0_10 0
+channel 15 ADC0_6 0
+channel 15 ADC0_8 0
+channel 15 sc 0
+channel 15 sd 0
+channel 15 sl 0
+channel 15 sm 0
+channel 15 smx 0
+channel 15 st 0
+channel 15 sth 0
+
+channel 16 ADC0_10 0
+channel 16 ADC0_6 0
+channel 16 ADC0_8 0
+channel 16 sc 0
+channel 16 sd 0
+channel 16 sl 0
+channel 16 sm 0
+channel 16 smx 0
+channel 16 st 0
+channel 16 sth 0
+
+channel 17 ADC0_10 0
+channel 17 ADC0_6 0
+channel 17 ADC0_8 0
+channel 17 sc 0
+channel 17 sd 0
+channel 17 sl 0
+channel 17 sm 0
+channel 17 smx 0
+channel 17 st 0
+channel 17 sth 0
+
+channel 18 ADC0_10 0
+channel 18 ADC0_6 0
+channel 18 ADC0_8 0
+channel 18 sc 0
+channel 18 sd 0
+channel 18 sl 0
+channel 18 sm 0
+channel 18 smx 0
+channel 18 st 0
+channel 18 sth 0
+
+channel 19 ADC0_10 0
+channel 19 ADC0_6 0
+channel 19 ADC0_8 0
+channel 19 sc 0
+channel 19 sd 0
+channel 19 sl 0
+channel 19 sm 0
+channel 19 smx 0
+channel 19 st 0
+channel 19 sth 0
+
+channel 20 ADC0_10 0
+channel 20 ADC0_6 0
+channel 20 ADC0_8 0
+channel 20 sc 0
+channel 20 sd 0
+channel 20 sl 0
+channel 20 sm 0
+channel 20 smx 0
+channel 20 st 0
+channel 20 sth 0
+
+channel 21 ADC0_10 0
+channel 21 ADC0_6 0
+channel 21 ADC0_8 0
+channel 21 sc 0
+channel 21 sd 0
+channel 21 sl 0
+channel 21 sm 0
+channel 21 smx 0
+channel 21 st 0
+channel 21 sth 0
+
+channel 22 ADC0_10 0
+channel 22 ADC0_6 0
+channel 22 ADC0_8 0
+channel 22 sc 0
+channel 22 sd 0
+channel 22 sl 0
+channel 22 sm 0
+channel 22 smx 0
+channel 22 st 0
+channel 22 sth 0
+
+channel 23 ADC0_10 0
+channel 23 ADC0_6 0
+channel 23 ADC0_8 0
+channel 23 sc 0
+channel 23 sd 0
+channel 23 sl 0
+channel 23 sm 0
+channel 23 smx 0
+channel 23 st 0
+channel 23 sth 0
+
+channel 24 ADC0_10 0
+channel 24 ADC0_6 0
+channel 24 ADC0_8 0
+channel 24 sc 0
+channel 24 sd 0
+channel 24 sl 0
+channel 24 sm 0
+channel 24 smx 0
+channel 24 st 0
+channel 24 sth 0
+
+channel 25 ADC0_10 0
+channel 25 ADC0_6 0
+channel 25 ADC0_8 0
+channel 25 sc 0
+channel 25 sd 0
+channel 25 sl 0
+channel 25 sm 0
+channel 25 smx 0
+channel 25 st 0
+channel 25 sth 0
+
+channel 26 ADC0_10 0
+channel 26 ADC0_6 0
+channel 26 ADC0_8 0
+channel 26 sc 0
+channel 26 sd 0
+channel 26 sl 0
+channel 26 sm 0
+channel 26 smx 0
+channel 26 st 0
+channel 26 sth 0
+
+channel 27 ADC0_10 0
+channel 27 ADC0_6 0
+channel 27 ADC0_8 0
+channel 27 sc 0
+channel 27 sd 0
+channel 27 sl 0
+channel 27 sm 0
+channel 27 smx 0
+channel 27 st 0
+channel 27 sth 0
+
+channel 28 ADC0_10 0
+channel 28 ADC0_6 0
+channel 28 ADC0_8 0
+channel 28 sc 0
+channel 28 sd 0
+channel 28 sl 0
+channel 28 sm 0
+channel 28 smx 0
+channel 28 st 0
+channel 28 sth 0
+
+channel 29 ADC0_10 0
+channel 29 ADC0_6 0
+channel 29 ADC0_8 0
+channel 29 sc 0
+channel 29 sd 0
+channel 29 sl 0
+channel 29 sm 0
+channel 29 smx 0
+channel 29 st 0
+channel 29 sth 0
+
+channel 30 ADC0_10 0
+channel 30 ADC0_6 0
+channel 30 ADC0_8 0
+channel 30 sc 0
+channel 30 sd 0
+channel 30 sl 0
+channel 30 sm 0
+channel 30 smx 0
+channel 30 st 0
+channel 30 sth 0
+
+channel 31 ADC0_10 0
+channel 31 ADC0_6 0
+channel 31 ADC0_8 0
+channel 31 sc 0
+channel 31 sd 0
+channel 31 sl 0
+channel 31 sm 0
+channel 31 smx 0
+channel 31 st 0
+channel 31 sth 0
+
+channel 32 ADC0_10 0
+channel 32 ADC0_6 0
+channel 32 ADC0_8 0
+channel 32 sc 0
+channel 32 sd 0
+channel 32 sl 0
+channel 32 sm 0
+channel 32 smx 0
+channel 32 st 0
+channel 32 sth 0
+
+channel 33 ADC0_10 0
+channel 33 ADC0_6 0
+channel 33 ADC0_8 0
+channel 33 sc 0
+channel 33 sd 0
+channel 33 sl 0
+channel 33 sm 0
+channel 33 smx 0
+channel 33 st 0
+channel 33 sth 0
+
+channel 34 ADC0_10 0
+channel 34 ADC0_6 0
+channel 34 ADC0_8 0
+channel 34 sc 0
+channel 34 sd 0
+channel 34 sl 0
+channel 34 sm 0
+channel 34 smx 0
+channel 34 st 0
+channel 34 sth 0
+
+channel 35 ADC0_10 0
+channel 35 ADC0_6 0
+channel 35 ADC0_8 0
+channel 35 sc 0
+channel 35 sd 0
+channel 35 sl 0
+channel 35 sm 0
+channel 35 smx 0
+channel 35 st 0
+channel 35 sth 0
+
+channel 36 ADC0_10 0
+channel 36 ADC0_6 0
+channel 36 ADC0_8 0
+channel 36 sc 0
+channel 36 sd 0
+channel 36 sl 0
+channel 36 sm 0
+channel 36 smx 0
+channel 36 st 0
+channel 36 sth 0
+
+channel 37 ADC0_10 0
+channel 37 ADC0_6 0
+channel 37 ADC0_8 0
+channel 37 sc 0
+channel 37 sd 0
+channel 37 sl 0
+channel 37 sm 0
+channel 37 smx 0
+channel 37 st 0
+channel 37 sth 0
+
+channel 38 ADC0_10 0
+channel 38 ADC0_6 0
+channel 38 ADC0_8 0
+channel 38 sc 0
+channel 38 sd 0
+channel 38 sl 0
+channel 38 sm 0
+channel 38 smx 0
+channel 38 st 0
+channel 38 sth 0
+
+channel 39 ADC0_10 0
+channel 39 ADC0_6 0
+channel 39 ADC0_8 0
+channel 39 sc 0
+channel 39 sd 0
+channel 39 sl 0
+channel 39 sm 0
+channel 39 smx 0
+channel 39 st 0
+channel 39 sth 0
+
+channel 40 ADC0_10 0
+channel 40 ADC0_6 0
+channel 40 ADC0_8 0
+channel 40 sc 0
+channel 40 sd 0
+channel 40 sl 0
+channel 40 sm 0
+channel 40 smx 0
+channel 40 st 0
+channel 40 sth 0
+
+channel 41 ADC0_10 0
+channel 41 ADC0_6 0
+channel 41 ADC0_8 0
+channel 41 sc 0
+channel 41 sd 0
+channel 41 sl 0
+channel 41 sm 0
+channel 41 smx 0
+channel 41 st 0
+channel 41 sth 0
+
+channel 42 ADC0_10 0
+channel 42 ADC0_6 0
+channel 42 ADC0_8 0
+channel 42 sc 0
+channel 42 sd 0
+channel 42 sl 0
+channel 42 sm 0
+channel 42 smx 0
+channel 42 st 0
+channel 42 sth 0
+
+channel 43 ADC0_10 0
+channel 43 ADC0_6 0
+channel 43 ADC0_8 0
+channel 43 sc 0
+channel 43 sd 0
+channel 43 sl 0
+channel 43 sm 0
+channel 43 smx 0
+channel 43 st 0
+channel 43 sth 0
+
+channel 44 ADC0_10 0
+channel 44 ADC0_6 0
+channel 44 ADC0_8 0
+channel 44 sc 0
+channel 44 sd 0
+channel 44 sl 0
+channel 44 sm 0
+channel 44 smx 0
+channel 44 st 0
+channel 44 sth 0
+
+channel 45 ADC0_10 0
+channel 45 ADC0_6 0
+channel 45 ADC0_8 0
+channel 45 sc 0
+channel 45 sd 0
+channel 45 sl 0
+channel 45 sm 0
+channel 45 smx 0
+channel 45 st 0
+channel 45 sth 0
+
+channel 46 ADC0_10 0
+channel 46 ADC0_6 0
+channel 46 ADC0_8 0
+channel 46 sc 0
+channel 46 sd 0
+channel 46 sl 0
+channel 46 sm 0
+channel 46 smx 0
+channel 46 st 0
+channel 46 sth 0
+
+channel 47 ADC0_10 0
+channel 47 ADC0_6 0
+channel 47 ADC0_8 0
+channel 47 sc 0
+channel 47 sd 0
+channel 47 sl 0
+channel 47 sm 0
+channel 47 smx 0
+channel 47 st 0
+channel 47 sth 0
+
+channel 48 ADC0_10 0
+channel 48 ADC0_6 0
+channel 48 ADC0_8 0
+channel 48 sc 0
+channel 48 sd 0
+channel 48 sl 0
+channel 48 sm 0
+channel 48 smx 0
+channel 48 st 0
+channel 48 sth 0
+
+channel 49 ADC0_10 0
+channel 49 ADC0_6 0
+channel 49 ADC0_8 0
+channel 49 sc 0
+channel 49 sd 0
+channel 49 sl 0
+channel 49 sm 0
+channel 49 smx 0
+channel 49 st 0
+channel 49 sth 0
+
+channel 50 ADC0_10 0
+channel 50 ADC0_6 0
+channel 50 ADC0_8 0
+channel 50 sc 0
+channel 50 sd 0
+channel 50 sl 0
+channel 50 sm 0
+channel 50 smx 0
+channel 50 st 0
+channel 50 sth 0
+
+channel 51 ADC0_10 0
+channel 51 ADC0_6 0
+channel 51 ADC0_8 0
+channel 51 sc 0
+channel 51 sd 0
+channel 51 sl 0
+channel 51 sm 0
+channel 51 smx 0
+channel 51 st 0
+channel 51 sth 0
+
+channel 52 ADC0_10 0
+channel 52 ADC0_6 0
+channel 52 ADC0_8 0
+channel 52 sc 0
+channel 52 sd 0
+channel 52 sl 0
+channel 52 sm 0
+channel 52 smx 0
+channel 52 st 0
+channel 52 sth 0
+
+channel 53 ADC0_10 0
+channel 53 ADC0_6 0
+channel 53 ADC0_8 0
+channel 53 sc 0
+channel 53 sd 0
+channel 53 sl 0
+channel 53 sm 0
+channel 53 smx 0
+channel 53 st 0
+channel 53 sth 0
+
+channel 54 ADC0_10 0
+channel 54 ADC0_6 0
+channel 54 ADC0_8 0
+channel 54 sc 0
+channel 54 sd 0
+channel 54 sl 0
+channel 54 sm 0
+channel 54 smx 0
+channel 54 st 0
+channel 54 sth 0
+
+channel 55 ADC0_10 0
+channel 55 ADC0_6 0
+channel 55 ADC0_8 0
+channel 55 sc 0
+channel 55 sd 0
+channel 55 sl 0
+channel 55 sm 0
+channel 55 smx 0
+channel 55 st 0
+channel 55 sth 0
+
+channel 56 ADC0_10 0
+channel 56 ADC0_6 0
+channel 56 ADC0_8 0
+channel 56 sc 0
+channel 56 sd 0
+channel 56 sl 0
+channel 56 sm 0
+channel 56 smx 0
+channel 56 st 0
+channel 56 sth 0
+
+channel 57 ADC0_10 0
+channel 57 ADC0_6 0
+channel 57 ADC0_8 0
+channel 57 sc 0
+channel 57 sd 0
+channel 57 sl 0
+channel 57 sm 0
+channel 57 smx 0
+channel 57 st 0
+channel 57 sth 0
+
+channel 58 ADC0_10 0
+channel 58 ADC0_6 0
+channel 58 ADC0_8 0
+channel 58 sc 0
+channel 58 sd 0
+channel 58 sl 0
+channel 58 sm 0
+channel 58 smx 0
+channel 58 st 0
+channel 58 sth 0
+
+channel 59 ADC0_10 0
+channel 59 ADC0_6 0
+channel 59 ADC0_8 0
+channel 59 sc 0
+channel 59 sd 0
+channel 59 sl 0
+channel 59 sm 0
+channel 59 smx 0
+channel 59 st 0
+channel 59 sth 0
+
+channel 60 ADC0_10 0
+channel 60 ADC0_6 0
+channel 60 ADC0_8 0
+channel 60 sc 0
+channel 60 sd 0
+channel 60 sl 0
+channel 60 sm 0
+channel 60 smx 0
+channel 60 st 0
+channel 60 sth 0
+
+channel 61 ADC0_10 0
+channel 61 ADC0_6 0
+channel 61 ADC0_8 0
+channel 61 sc 0
+channel 61 sd 0
+channel 61 sl 0
+channel 61 sm 0
+channel 61 smx 0
+channel 61 st 0
+channel 61 sth 0
+
+channel 62 ADC0_10 0
+channel 62 ADC0_6 0
+channel 62 ADC0_8 0
+channel 62 sc 0
+channel 62 sd 0
+channel 62 sl 0
+channel 62 sm 0
+channel 62 smx 0
+channel 62 st 0
+channel 62 sth 0
+
+channel 63 ADC0_10 0
+channel 63 ADC0_6 0
+channel 63 ADC0_8 0
+channel 63 sc 0
+channel 63 sd 0
+channel 63 sl 0
+channel 63 sm 0
+channel 63 smx 0
+channel 63 st 0
+channel 63 sth 0
+');
+INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, Baseline, adcextcurvature, avgTDC, vmm_class, Threshold, adcextvertex, monitoradcintercept, Basenoise, WorkingChannelsInt, AvgCurr1_9V, hybrid_class, adcintvertex, AvgCurr2_9V, brokenchannels, monitoradcslope, WorkingChannelsExt, adcintcurvature,Date) VALUES('c41da000a0000065202103301413','c41da000a0000065',0,'BonnPI', '163.3', '-0.0651869', '120.001', 'A', '15', '30.0194', '24.7082', '0.150', '64', '1.642', 'c', '29.8193', '0.121', '{}', '0.777241', '64', '-0.052013','2021-03-30');
+INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, Baseline, adcextcurvature, avgTDC, vmm_class, Threshold, adcextvertex, monitoradcintercept, Basenoise, WorkingChannelsInt, AvgCurr1_9V, hybrid_class, adcintvertex, AvgCurr2_9V, brokenchannels, monitoradcslope, WorkingChannelsExt, adcintcurvature,Date) VALUES('c41da000a0000065202103301413','c41da000a0000065',1,'BonnPI', '162.0', '-0.0503792', '79.1858', 'D', '16', '27.8935', '29.8928', '0.217', '50', '1.642', 'c', '26.6637', '0.121', '{6,7,8,9,13,16,18,23,33,36,37,41,43,47,48,53,59,61}', '0.729348', '50', '-0.0419418','2021-03-30');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','MonitoringADC','{points,Threshold DAC,ADC Value,VMM}');
+CREATE TABLE IF NOT EXISTS MonitoringADC(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO MonitoringADC(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','MonitoringADC','{points,Threshold DAC,ADC Value,VMM}','{0,16,32,48,64,80,96,112,128,144,160,176,192,208,224,240,256,272,288,304,320,336,352,368,384,400,416,432,448,464,480,496,512,528,544,560,576,592,608,624,640,656,672,688,704,720,736,752,768,784,800,816,832,848,864,880,896,912,928,944,960,976,992,1008}','{49,54,61,69,78,89,99,111,122,134,146,158,170,183,195,207,220,232,245,257,270,282,295,307,320,332,345,357,370,382,395,407,420,433,445,458,470,483,495,508,521,533,546,559,571,584,597,609,622,635,647,660,673,686,698,711,724,736,749,762,775,788,800,813}','{44,51,60,70,80,91,102,112,123,135,146,157,169,180,191,203,214,226,237,249,261,272,284,295,307,319,330,342,354,365,377,389,401,412,424,436,448,459,471,483,495,507,519,531,543,554,567,578,590,602,614,626,638,650,662,674,686,698,710,721,733,745,757,770}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','ADCCalibrationInternal','{points,Channel,Average ADC,VMM}');
+CREATE TABLE IF NOT EXISTS ADCCalibrationInternal(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO ADCCalibrationInternal(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','ADCCalibrationInternal','{points,Channel,Average ADC,VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{256.653,272.135,274.164,272.953,270.623,273.465,280.384,287.867,275.264,281.424,295.642,294.185,283.923,300.066,300.406,284.486,305.292,295.589,313.465,308.262,300.745,292.494,294.715,304.522,296.465,309.793,318.692,313.186,309.299,304.301,310.959,303.081,305.655,303.021,314.713,272.42,299.799,297.772,296.007,308.855,313.887,310.791,324.896,303.556,290.631,305.036,287.939,307.372,287.283,290.477,289.492,293.562,282.704,271.11,282.332,282.123,276.956,278.2,266.291,261.589,271.835,242.631,250.518,236.798}','{259.528,268.577,279.256,287.11,288.246,288.008,0,0,0,0,301.585,295.455,287.927,0,291.11,299.329,0,293.752,0,294.249,295.362,300.179,303.867,303.455,305.247,310.636,310.12,308.359,318.073,303.613,304.092,304.954,304.575,0,294.221,299.096,0,0,299.693,295.967,299.33,0,298.419,0,295.083,296.693,312.835,287.958,146.49,302.204,299.754,280.959,277.775,0,272.372,273.957,269.58,275.558,272.588,255.46,258.471,0,252.148,250.616}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','BaselineNoise','{points,Channel,RMS Noise [mV],VMM}');
+CREATE TABLE IF NOT EXISTS BaselineNoise(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO BaselineNoise(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','BaselineNoise','{points,Channel,RMS Noise [mV],VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{0,0,0.458258,0.3,0.489898,0,0,0,0,0,0,0.3,0.3,0,0.3,0.5,0,0,0,0.3,0,0,0.4,0,0,0.4,0,0.489898,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0.3,0.4,0,0.4,0.489898,0.5,0.4,0,0,0.3,0.3,0.489898,0,0,0,0,0.489898,0,0,0.5}','{0.4,0.3,0.4,0,0,0,0,0.5,0,0,0.489898,0.3,0.3,0,0.3,0,0.3,0.489898,0,0.489898,0,0,0.4,0,0,0.489898,0.458258,0.3,0.489898,0,0,0.3,0,0,0.4,0.5,0,0.4,0.3,0.4,0.458258,0,0.3,0.3,0.4,0,0.3,0,0.5,0.3,0.3,0.4,0.4,0.3,0,0.458258,0.458258,0,0.3,0,0,0,0,0}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','Pedestal','{points,Channel Nr.,Pedestal,VMM}');
+CREATE TABLE IF NOT EXISTS Pedestal(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO Pedestal(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','Pedestal','{points,Channel Nr.,Pedestal,VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{165,164,168.7,166.1,162.6,160,167,164,163,164,159,170.1,164.9,162,163.9,164.5,161,164,165,162.9,162,165,161.2,163,164,163.2,161,163.6,165.1,160,164,164,166,161,160,164,164,163,161,163,165,165,163,161.5,162.9,160.8,161,161.8,164.6,163.5,164.8,165,163,164.1,161.9,165.6,159,163,164,162,165.6,162,163,159.5}','{162.2,164.1,163.8,165,162,163,162,165.5,162,162,160.4,160.9,164.1,161,161.1,163,160.9,165.4,163,164.4,164,166,164.2,164,161,164.6,164.3,163.1,162.6,161,163,160.9,161,158,162.2,161.5,162,161.8,161.1,159.8,162.3,159,161.9,161.9,162.2,159,160.1,160,159.5,165.9,158.1,161.8,162.2,159.9,158,158.3,161.3,157,163.9,164,161,162,164,164}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','TDCCalibrationInternal','{points,Channel,Average TDC,VMM}');
+CREATE TABLE IF NOT EXISTS TDCCalibrationInternal(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO TDCCalibrationInternal(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','TDCCalibrationInternal','{points,Channel,Average TDC,VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{92.9612,95.9708,117.806,116.942,100.515,144.193,142.467,115.273,140.28,126.329,118.139,122.533,128.604,121.247,121.614,122.875,132.91,128.917,119.724,135.075,119.612,127.73,129.541,125.403,120.222,120.717,111.649,118.19,134.689,122.071,125.573,133.265,127.906,119.993,103.854,120.559,126.982,118.474,119.825,136.259,116.622,110.997,114.658,119.79,117.467,116.809,119.065,124.52,114.552,116.014,102.09,112.544,122.101,114.94,118.305,107.224,119.244,112.657,113.574,96.7575,118.707,118.965,132.689,112.894}','{83.1618,81.9182,94.2364,83.3834,151.182,84.6951,0,0,0,0,118.725,83.3896,81.1568,0,87.6703,82.7506,0,106.117,0,82.0355,96.0552,80.2306,93.9123,83.5794,84.8467,120.975,122.153,118.869,107.742,107.063,122.545,128.403,105.304,0,115.092,109.204,0,0,101.086,114.69,103.06,0,117.082,0,106.256,97.6768,108.558,90.5433,117.487,99.3176,123.893,89.5728,109.213,0,93.1492,108.312,80.2169,126.278,100.004,90.4927,96.5187,0,83.6471,94.4413}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','ADCCalibrationExternal','{points,Channel,Average ADC,VMM}');
+CREATE TABLE IF NOT EXISTS ADCCalibrationExternal(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO ADCCalibrationExternal(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','ADCCalibrationExternal','{points,Channel,Average ADC,VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{388.996,408.268,407.848,400.77,408.841,406.681,412.774,432.372,407.46,420.713,439.283,437.435,426.334,442.683,439.272,427.621,450.179,433.505,459.046,450.991,438.345,436.796,428.705,452.482,443.101,457.871,457.475,459.854,458.738,457.603,459.183,441.941,451.917,453.738,449.022,413.392,440.387,434.548,431.392,462.051,451.449,459.976,476.212,452.898,434.166,449.118,425.25,450.225,419.918,429.941,424.084,433.526,418.885,405.73,428.371,427.763,417.385,423.191,397.283,393.72,411.081,369.019,376.535,367.959}','{417.54,425.792,447.207,457.948,450.408,453.916,446.562,0,0,431.724,477.561,471.158,464.309,0,458.625,468.932,0,451.152,0,465.638,468.072,464.549,477.574,300.177,488.882,486.67,479.151,485.401,500.862,474.473,473.853,491.236,476.035,0,468.27,472.555,474.009,0,468.318,464.983,465.813,0,470.204,0,469.629,472.296,483.68,0,345.084,466.98,474.513,444.847,447.371,0,434.058,432.357,433.311,432.032,429.099,0,416.693,0,406.618,402.593}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','Externalpulses','{points,Channel#,Hits,VMM}');
+CREATE TABLE IF NOT EXISTS Externalpulses(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO Externalpulses(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','Externalpulses','{points,Channel#,Hits,VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{9150,9152,9095,9151,9150,9153,9149,9152,9138,9151,9096,9150,9134,9148,9134,9146,9133,9107,9091,9146,9135,9145,9134,9146,9145,9145,9106,9144,9144,9142,9143,9145,9146,9146,9108,9108,9148,9147,9146,9145,9144,9146,9105,9146,9146,9142,9144,9143,9144,9146,9145,9146,9148,9150,9148,9150,9150,9150,9148,9149,9151,9148,9146,9146}','{9146,9148,9147,9147,9144,9148,9147,0,0,9147,9123,9145,9146,0,9148,9146,0,9148,0,9146,9148,9148,9147,113,9145,9145,9149,9147,9146,9148,9147,9147,9147,0,9105,9105,9144,0,9147,9148,9147,0,9148,0,9149,9149,9150,0,9150,9147,9147,9150,9149,0,9148,9147,9148,9147,9145,0,9148,0,9149,9147}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','Internalpulses','{points,Channel#,Hits,VMM}');
+CREATE TABLE IF NOT EXISTS Internalpulses(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO Internalpulses(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','Internalpulses','{points,Channel#,Hits,VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{97040,97040,97040,97039,97037,97035,97034,97035,97036,97037,97038,97037,97034,97035,97035,97035,97036,97037,97037,97035,97037,97037,97038,97038,97040,97039,97037,97036,97036,97037,97037,97039,97040,97039,97039,97037,97033,97033,97033,97035,97037,97035,97036,97035,97034,97034,97034,97033,97030,97032,97032,97032,97032,97032,97035,97035,97036,97036,97037,97037,97039,97039,97040,97040}','{97034,97038,97040,97039,97038,97036,0,0,0,0,97034,97035,97035,0,97036,97038,0,97037,0,97034,97035,97035,97035,97035,97037,97037,97036,97038,97037,97038,97038,97040,97039,0,97038,97036,0,0,97036,97037,97037,0,97038,0,97040,97039,97039,97037,97034,97034,97033,97035,97038,0,97036,97036,97035,97035,97034,97034,97034,0,97031,97032}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','Temperature','{points,Time since first start [s],Temperature [°C],VMM}');
+CREATE TABLE IF NOT EXISTS Temperature(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO Temperature(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','Temperature','{points,Time since first start [s],Temperature [°C],VMM}','{0,2.76,2.807,35.28,35.387,38.077,38.128,82.349,82.406,109.977,128.965,192.989,220.062,220.259}','{26.4865,28.1081,28.1081,36.7568,36.7568,36.7568,37.2973,41.6216,41.6216,43.7838,44.3243,34.0541,40.5405,40.5405}','{25.9459,27.027,27.027,36.2162,36.2162,36.7568,36.7568,42.7027,42.7027,45.4054,46.4865,34.5946,41.0811,41.0811}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','Thresholdtrimabilityrange','{points,Channel,Trimmable Range,VMM}');
+CREATE TABLE IF NOT EXISTS Thresholdtrimabilityrange(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO Thresholdtrimabilityrange(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','Thresholdtrimabilityrange','{points,Channel,Trimmable Range,VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{40,33,34,34,38,38,37,32,38,31,36,40,36,37,41,37,37,40,35,30,33,30,30,35,36,38,32,30,35,43,41,38,37,35,33,39,32,37,39,36,36,36,32,31,39,34,32,35,36,40,37,34,33,37,36,38,36,39,42,39,37,38,39,41}','{33,32,31,37,35,34,36,38,33,34,33,33,34,37,38,35,34,34,30,35,31,35,35,31,34,34,34,35,36,32,33,35,35,33,34,38,34,33,30,32,34,34,37,36,36,34,33,35,36,31,33,32,38,31,36,35,32,37,39,36,40,37,35,39}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','ThresholdTrimabilityVMM0','{channels,thresholdtrim,measured threshold,Ch}');
+CREATE TABLE IF NOT exists ThresholdTrimabilityVMM0(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[] , y1_ real[], y2_ real[], y3_ real[], y4_ real[], y5_ real[], y6_ real[], y7_ real[], y8_ real[], y9_ real[], y10_ real[], y11_ real[], y12_ real[], y13_ real[], y14_ real[], y15_ real[], y16_ real[], y17_ real[], y18_ real[], y19_ real[], y20_ real[], y21_ real[], y22_ real[], y23_ real[], y24_ real[], y25_ real[], y26_ real[], y27_ real[], y28_ real[], y29_ real[], y30_ real[], y31_ real[], y32_ real[], y33_ real[], y34_ real[], y35_ real[], y36_ real[], y37_ real[], y38_ real[], y39_ real[], y40_ real[], y41_ real[], y42_ real[], y43_ real[], y44_ real[], y45_ real[], y46_ real[], y47_ real[], y48_ real[], y49_ real[], y50_ real[], y51_ real[], y52_ real[], y53_ real[], y54_ real[], y55_ real[], y56_ real[], y57_ real[], y58_ real[], y59_ real[], y60_ real[], y61_ real[], y62_ real[], y63_ real[], y64_ real[]);
+INSERT INTO ThresholdTrimabilityVMM0(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_, y3_, y4_, y5_, y6_, y7_, y8_, y9_, y10_, y11_, y12_, y13_, y14_, y15_, y16_, y17_, y18_, y19_, y20_, y21_, y22_, y23_, y24_, y25_, y26_, y27_, y28_, y29_, y30_, y31_, y32_, y33_, y34_, y35_, y36_, y37_, y38_, y39_, y40_, y41_, y42_, y43_, y44_, y45_, y46_, y47_, y48_, y49_, y50_, y51_, y52_, y53_, y54_, y55_, y56_, y57_, y58_, y59_, y60_, y61_, y62_, y63_, y64_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','ThresholdTrimabilityVMM0','{channels,thresholdtrim,measured threshold,Ch}','{0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30}','{249,246,244,241,238,236,233,230,228,225,222,220,217,214,212,209}','{243,241,239,237,234,232,230,228,225,223,221,218,216,214,212,210}','{250,247,245,242,240,238,236,233,231,229,227,225,222,220,218,216}','{253,251,249,246,244,242,239,237,235,233,231,228,226,224,222,219}','{245,242,240,237,234,232,229,227,224,222,219,217,214,212,209,207}','{248,246,243,241,238,235,233,230,228,225,223,220,218,215,213,210}','{251,248,246,243,241,238,235,233,231,228,226,224,221,219,216,214}','{255,253,251,249,246,244,242,240,238,235,233,231,229,227,225,223}','{250,247,245,242,240,237,234,232,230,227,224,222,219,217,214,212}','{252,250,247,245,243,241,239,237,235,233,231,229,227,225,223,221}','{251,248,246,244,241,239,237,234,232,230,227,225,222,220,218,215}','{255,252,250,247,244,242,239,236,234,231,228,226,223,220,218,215}','{257,254,252,249,247,245,242,240,238,235,233,231,228,226,223,221}','{251,249,246,244,241,239,236,234,231,229,226,224,222,219,217,214}','{251,248,246,243,240,237,235,232,229,226,224,221,218,216,213,210}','{252,249,247,244,242,239,237,234,232,230,227,225,222,220,218,215}','{255,253,250,248,245,243,240,238,236,233,231,228,226,223,221,218}','{253,250,247,245,242,239,237,234,232,229,226,224,221,218,216,213}','{254,251,249,247,244,242,240,237,235,233,230,228,226,224,221,219}','{250,248,246,244,242,240,238,236,234,232,230,228,226,224,222,220}','{253,250,248,246,244,241,239,237,235,233,231,228,226,224,222,220}','{253,251,249,247,245,243,241,239,237,235,233,231,229,227,225,223}','{254,252,250,248,246,244,242,240,238,236,234,232,230,228,226,224}','{254,251,249,246,244,242,240,237,235,233,231,228,226,224,221,219}','{250,247,245,242,240,238,235,233,231,228,226,223,221,219,216,214}','{249,247,244,241,239,236,234,231,229,226,224,221,219,216,214,211}','{248,246,244,241,239,237,235,233,231,229,226,224,222,220,218,216}','{247,245,243,241,239,237,235,233,232,229,227,225,224,221,219,217}','{251,249,247,244,242,239,237,234,232,230,228,225,223,221,218,216}','{249,246,243,240,237,234,231,228,226,223,220,217,215,212,209,206}','{252,249,246,243,240,237,234,231,229,226,223,220,217,215,212,211}','{253,250,247,245,243,240,237,235,232,230,227,225,223,220,218,215}','{248,246,243,241,238,236,233,231,228,225,223,220,218,215,213,211}','{251,248,246,244,241,239,236,234,232,230,227,225,223,220,218,216}','{248,246,243,241,239,237,235,232,230,228,226,224,222,220,217,215}','{253,251,248,245,243,240,237,235,232,230,227,225,222,219,217,214}','{254,252,250,248,246,243,241,239,237,235,233,231,228,226,224,222}','{247,244,242,239,237,234,232,230,227,225,222,220,217,215,212,210}','{252,249,247,244,241,239,236,234,231,229,226,224,221,218,216,213}','{253,251,248,246,243,241,239,236,234,232,229,227,224,222,219,217}','{248,245,243,240,238,235,233,231,228,226,223,221,219,216,214,212}','{251,249,246,244,242,239,237,234,232,230,227,225,222,220,218,215}','{255,253,251,249,247,245,243,240,238,236,234,232,230,228,226,223}','{248,246,244,242,240,238,236,234,231,230,227,225,223,221,220,217}','{259,256,254,251,248,246,243,241,238,235,233,230,228,225,223,220}','{251,249,247,245,242,240,238,235,233,231,229,226,224,222,219,217}','{253,251,249,247,245,242,240,238,236,234,232,230,228,225,223,221}','{253,251,248,246,243,241,239,236,234,232,229,227,224,222,220,218}','{257,254,252,249,247,245,242,240,237,235,233,230,228,226,223,221}','{249,246,243,241,238,235,233,230,227,225,222,219,217,214,211,209}','{253,250,248,245,243,241,238,236,233,231,228,226,224,221,219,216}','{250,247,245,243,241,238,236,234,232,229,227,225,223,221,218,216}','{252,250,248,246,243,241,239,236,235,232,230,228,226,223,221,219}','{249,247,244,242,239,237,234,232,229,227,224,222,220,217,215,212}','{254,252,250,247,245,242,240,237,235,233,231,228,226,223,221,218}','{254,252,249,247,244,241,239,236,234,231,228,226,224,221,218,216}','{248,246,244,241,239,236,234,231,229,227,224,222,219,217,214,212}','{257,255,252,249,247,244,241,239,236,234,231,228,226,223,220,218}','{251,248,245,242,240,237,234,231,229,226,223,220,218,215,212,209}','{257,254,251,249,246,244,241,238,236,233,231,228,226,223,221,218}','{254,251,249,246,244,241,239,236,234,231,229,227,224,222,219,217}','{254,251,249,246,244,241,239,236,234,231,229,226,224,221,219,216}','{252,250,247,244,242,239,236,234,231,229,226,223,221,218,216,213}','{251,248,245,243,240,237,234,232,229,227,224,221,218,216,213,210}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','ThresholdScan','{points,Channel,Channel Threshold,VMM}');
+CREATE TABLE IF NOT EXISTS ThresholdScan(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO ThresholdScan(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','ThresholdScan','{points,Channel,Channel Threshold,VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{249,244,250,253,245,248,251,255,250,252,251,255,257,251,251,252,255,253,254,250,253,253,254,254,250,249,248,248,251,249,252,253,249,251,248,253,254,247,252,253,248,252,255,248,259,252,253,253,257,249,253,250,252,249,254,255,249,257,251,257,254,254,252,251}','{243,247,244,247,243,241,249,247,244,250,239,245,245,243,247,249,241,247,248,246,249,246,249,241,247,243,250,237,245,241,242,245,247,243,248,245,251,241,245,245,245,244,248,240,245,247,247,235,239,246,246,237,245,251,243,243,245,238,242,243,245,241,244,245}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','ThresholdTrimabilityVMM1','{channels,thresholdtrim,measured threshold,Ch}');
+CREATE TABLE IF NOT exists ThresholdTrimabilityVMM1(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[] , y1_ real[], y2_ real[], y3_ real[], y4_ real[], y5_ real[], y6_ real[], y7_ real[], y8_ real[], y9_ real[], y10_ real[], y11_ real[], y12_ real[], y13_ real[], y14_ real[], y15_ real[], y16_ real[], y17_ real[], y18_ real[], y19_ real[], y20_ real[], y21_ real[], y22_ real[], y23_ real[], y24_ real[], y25_ real[], y26_ real[], y27_ real[], y28_ real[], y29_ real[], y30_ real[], y31_ real[], y32_ real[], y33_ real[], y34_ real[], y35_ real[], y36_ real[], y37_ real[], y38_ real[], y39_ real[], y40_ real[], y41_ real[], y42_ real[], y43_ real[], y44_ real[], y45_ real[], y46_ real[], y47_ real[], y48_ real[], y49_ real[], y50_ real[], y51_ real[], y52_ real[], y53_ real[], y54_ real[], y55_ real[], y56_ real[], y57_ real[], y58_ real[], y59_ real[], y60_ real[], y61_ real[], y62_ real[], y63_ real[], y64_ real[]);
+INSERT INTO ThresholdTrimabilityVMM1(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_, y3_, y4_, y5_, y6_, y7_, y8_, y9_, y10_, y11_, y12_, y13_, y14_, y15_, y16_, y17_, y18_, y19_, y20_, y21_, y22_, y23_, y24_, y25_, y26_, y27_, y28_, y29_, y30_, y31_, y32_, y33_, y34_, y35_, y36_, y37_, y38_, y39_, y40_, y41_, y42_, y43_, y44_, y45_, y46_, y47_, y48_, y49_, y50_, y51_, y52_, y53_, y54_, y55_, y56_, y57_, y58_, y59_, y60_, y61_, y62_, y63_, y64_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','ThresholdTrimabilityVMM1','{channels,thresholdtrim,measured threshold,Ch}','{0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30}','{243,241,238,236,234,232,230,228,225,223,221,219,216,214,212,210}','{247,244,242,240,238,236,234,232,229,227,225,223,221,219,217,215}','{243,241,239,237,235,233,231,229,227,224,222,220,218,216,214,212}','{247,244,242,239,237,234,231,229,227,225,222,220,217,215,212,210}','{243,241,238,236,233,231,228,226,224,221,219,217,214,212,210,208}','{241,239,237,234,232,230,227,225,223,221,218,216,214,212,209,207}','{249,246,244,241,239,237,234,232,230,227,225,222,220,218,215,213}','{247,245,242,239,237,234,231,229,226,224,221,218,216,214,211,209}','{244,241,239,237,235,233,230,228,226,224,221,219,217,215,213,211}','{250,247,245,243,241,238,236,234,232,229,227,225,223,220,218,216}','{239,237,235,233,230,228,226,224,222,219,217,215,213,211,209,206}','{245,243,240,238,236,234,231,229,227,225,222,220,218,216,214,212}','{245,243,240,238,236,233,231,229,226,224,222,220,217,215,213,211}','{243,240,238,235,233,230,228,225,223,220,218,216,214,211,209,206}','{247,245,242,240,237,234,232,229,227,224,222,219,216,214,211,209}','{249,247,244,242,239,237,235,232,230,227,225,223,221,218,217,214}','{241,239,237,234,232,230,227,225,223,220,218,216,214,211,209,207}','{247,245,242,240,238,236,233,231,229,226,224,222,219,217,215,213}','{248,246,244,242,240,238,236,234,232,230,228,226,224,222,220,218}','{246,243,241,238,236,234,231,229,227,224,222,220,218,215,213,211}','{249,247,244,243,241,238,236,234,232,230,228,226,224,222,220,218}','{246,243,241,239,236,234,232,229,227,225,223,220,218,216,214,211}','{249,247,244,242,240,237,235,232,230,228,226,223,221,219,216,214}','{241,238,236,234,232,230,228,226,224,222,220,218,216,214,212,210}','{247,245,243,240,238,236,233,231,229,226,224,222,219,217,215,213}','{243,240,238,236,233,231,229,227,224,222,220,218,215,213,211,209}','{250,247,245,243,240,238,236,234,231,229,227,225,223,220,218,216}','{237,235,232,230,227,225,222,220,218,216,213,211,209,206,204,202}','{244,242,240,237,234,232,230,227,225,223,220,218,215,213,211,208}','{241,239,237,235,233,230,228,226,224,221,219,217,215,213,211,209}','{242,239,237,235,233,231,228,226,224,222,220,218,215,213,211,209}','{245,243,240,238,236,233,230,228,226,224,221,219,217,214,212,210}','{246,244,241,239,237,234,231,229,227,224,222,220,217,215,213,211}','{243,241,239,237,234,232,230,228,226,223,221,219,217,215,213,210}','{248,246,244,241,239,237,235,232,230,228,225,223,221,219,216,214}','{245,242,240,237,234,232,229,227,224,222,219,217,214,212,209,207}','{251,248,246,244,241,239,237,234,233,230,228,226,223,221,219,217}','{241,239,237,235,232,230,228,225,224,221,219,217,215,213,210,208}','{245,243,241,239,237,235,233,231,229,227,225,222,221,219,217,215}','{245,243,241,239,236,234,232,230,228,226,224,221,219,217,215,213}','{245,243,241,238,236,234,231,229,227,224,222,220,218,215,213,211}','{244,242,239,237,234,232,230,227,226,223,221,219,217,214,212,210}','{248,245,243,240,238,235,232,230,228,225,223,220,218,215,213,211}','{240,238,235,233,230,228,225,223,220,218,215,213,211,208,206,204}','{245,242,240,237,235,232,230,227,225,223,220,218,216,213,211,209}','{247,245,242,240,238,236,233,231,228,227,224,222,220,217,215,213}','{247,244,242,240,238,236,233,231,229,227,224,222,220,218,216,214}','{236,233,231,229,226,224,222,219,217,215,212,210,208,206,203,201}','{239,236,234,232,229,227,224,222,220,217,215,213,210,208,206,203}','{246,244,241,239,237,235,233,231,229,227,225,223,221,219,217,215}','{246,244,241,240,237,235,233,230,228,227,224,222,220,218,215,213}','{237,235,233,231,229,227,224,222,220,218,216,214,212,209,207,205}','{245,242,239,237,234,232,229,227,224,221,219,217,214,212,209,207}','{251,249,247,244,243,241,238,236,234,232,230,228,226,224,222,220}','{243,240,238,236,233,231,229,226,224,221,219,217,214,212,210,207}','{243,240,238,236,233,231,228,226,224,221,219,217,215,212,210,208}','{245,243,241,238,236,234,232,230,228,226,223,221,219,217,215,213}','{238,235,233,230,228,225,223,220,218,215,213,210,208,206,203,201}','{242,239,237,234,231,229,226,223,221,218,216,213,210,208,205,203}','{243,241,238,236,233,231,228,226,223,221,218,216,214,211,209,207}','{245,243,240,237,234,231,229,226,224,221,218,216,213,210,208,205}','{241,239,236,233,231,229,226,223,221,219,216,214,212,209,207,204}','{244,242,240,237,235,232,230,227,225,223,220,218,216,213,211,209}','{245,243,240,237,235,232,229,226,224,221,219,216,214,211,208,206}');
+INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','Currentovertime','{points,Time since first start [s],Current [A],Current @CH}');
+CREATE TABLE IF NOT EXISTS Currentovertime(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO Currentovertime(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('c41da000a0000065202103301413','c41da000a0000065','2021-03-30','Currentovertime','{points,Time since first start [s],Current [A],Current @CH}','{0,0.304,0.607,0.911,1.215,1.519,1.839,2.126,2.446,2.734,3.054,3.358,3.662,3.965,4.269,4.573,4.877,5.181,5.485,5.788,6.092,6.412,6.7,7.02,7.308,7.627,7.931,8.235,8.539,8.842,9.146,9.45,9.754,10.058,10.361,10.665,10.985,11.273,11.592,11.88,12.2,12.504,12.808,13.112,13.415,13.719,14.023,14.327,14.63,14.934,15.238,15.558,15.846,16.165,16.453,16.773,17.077,17.381,17.684,17.972,18.292,18.596,18.9,19.204,19.507,19.811,20.131,20.419,20.739,21.026,21.346,21.65,21.938,22.258,22.545,22.865,23.169,23.473,23.777,24.08,24.384,24.704,24.992,25.311,25.599,25.903,26.223,26.511,26.83,27.118,27.438,27.742,28.046,28.349,28.653,28.957,29.277,29.565,29.884,30.172,30.476,30.796,31.084,31.403,31.691,32.011,32.315,32.619,32.922,33.226,33.53,33.85,34.138,34.441,34.746,35.049,35.369,35.657,35.976,36.264,36.584,36.888,37.191,37.495,37.799,38.103,38.407,38.71,39.014,39.318,39.622,39.942,40.229,40.549,40.837,41.157,41.461,41.764,42.068,42.372,42.676,42.98,43.283,43.587,43.891,44.195,44.515,44.802,45.122,45.41,45.73,46.034,46.337,46.641,46.945,47.249,47.553,47.856,48.16,48.464,48.768,49.087,49.375,49.695,49.983,50.303,50.606,50.91,51.214,51.518,51.822,52.125,52.429,52.733,53.037,53.34,53.66,53.948,54.268,54.556,54.875,55.179,55.483,55.787,56.091,56.395,56.698,57.002,57.306,57.61,57.913,58.233,58.521,58.841,59.129,59.448,59.752,60.056,60.36,60.663,60.967,61.271,61.575,61.879,62.183,62.486,62.806,63.094,63.414,63.702,64.021,64.325,64.629,64.932,65.236,65.54,65.844,66.148,66.452,66.755,67.059,67.379,67.667,67.987,68.275,68.594,68.898,69.202,69.506,69.809,70.113,70.417,70.721,71.025,71.329,71.632,71.952,72.24,72.56,72.848,73.167,73.471,73.775,74.079,74.383,74.687,74.99,75.294,75.598,75.902,76.205,76.525,76.813,77.133,77.421,77.74,78.044,78.348,78.652,78.955,79.259,79.563,79.867,80.171,80.474}','{0,1.444,1.454,1.433,1.397,1.352,1.348,1.707,1.854,1.813,1.715,1.641,1.643,1.643,1.643,1.643,1.644,1.643,1.643,1.642,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.64,1.64,1.641,1.641,1.641,1.641,1.641,1.64,1.64,1.64,1.64,1.64,1.64,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.64,1.64,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.639,1.639,1.639,1.641,1.64,1.64,1.641,1.641,1.641,1.64,1.641,1.64,1.64,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.641,1.642,1.643,1.643,1.642,1.642,1.642,1.643,1.643,1.643,1.643,1.643,1.643,1.643,1.643,1.643,1.643,1.643,1.643,1.643,1.641,1.641,1.642,1.643,1.643,1.642,1.642,1.642,1.64,1.64,1.642,1.641,1.641,1.641,1.645,1.653,1.653,1.652,1.652,1.652,1.652,1.653,1.652,1.652,1.652,1.652,1.652,1.653,1.653,1.653,1.652,1.653,1.656,1.656,1.656,1.657,1.657,1.658,1.659,1.659,1.659,1.659,1.659,1.659,1.659,1.659,1.659,1.659,1.66,1.66,1.66,1.66,1.66,1.66,1.66,1.66,1.66,1.659,1.659,1.659,1.659,1.659,1.66,1.659,1.659,1.659,1.66,1.661,1.659,1.657,1.651,1.648,1.644,1.642,1.641,1.639,1.639,1.64,1.64,1.639,1.639,1.639,1.639,1.642,1.646,1.648,1.648,1.649,1.649,1.65,1.651,1.65,1.649,1.649,1.649,1.65,1.65,1.65,1.65,1.65,1.652,1.653,1.654,1.654,1.654,1.655,1.655,1.656,1.657,1.657,1.657,1.657,1.657,1.657,1.657,1.657,1.657,1.658,1.658,1.658}','{0,0.024,0.028,0.033,0.038,0.044,0.05,0.101,0.123,0.122,0.122,0.122,0.122,0.122,0.122,0.122,0.122,0.121,0.121,0.122,0.122,0.122,0.122,0.122,0.122,0.122,0.122,0.121,0.121,0.122,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.122,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.12,0.12,0.121,0.121,0.121,0.121,0.121,0.12,0.12,0.12,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.121,0.12,0.12,0.121,0.12,0.12,0.12,0.12,0.12,0.121,0.121,0.121,0.121,0.12,0.12,0.121,0.121,0.12,0.12,0.121,0.121,0.121,0.121,0.121,0.121,0.12,0.12,0.12,0.12,0.121,0.12,0.12,0.12,0.121,0.12,0.12,0.121,0.121,0.121,0.121,0.12,0.12,0.12,0.12,0.121,0.12,0.12,0.12,0.121,0.121,0.12,0.12,0.12,0.12,0.12,0.121,0.12,0.12,0.12,0.12,0.121,0.121,0.121,0.12,0.12,0.12,0.12,0.12,0.12,0.121,0.121,0.121,0.121,0.121,0.12,0.12,0.12,0.12,0.121,0.121,0.121,0.121,0.121,0.12,0.12,0.12,0.12,0.12,0.12,0.12,0.12,0.12,0.121,0.12,0.12,0.12,0.121,0.121,0.12,0.12,0.121,0.121,0.121,0.121,0.12,0.12}');
