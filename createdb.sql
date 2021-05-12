@@ -42,4 +42,10 @@ Filecontent text,
 PRIMARY KEY(Measurement_ID,Filename)
 );
 
+CREATE TABLE logs(
+Measurement_ID text,
+llog text,
+PRIMARY KEY(Measurement_ID)
+);
+
 CREATE VIEW latest_measurements as SELECT * from hybrid_overview WHERE measurement_id IN (SELECT max FROM(SELECT hybrid_id,MAX(measurement_id) as max FROM hybrid_overview GROUP BY hybrid_id) as foo);
