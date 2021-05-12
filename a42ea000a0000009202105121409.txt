@@ -1801,4 +1801,4 @@ have bad average TDC
 have bad average TDC
 have bad average TDC
 Internal Test Pulses tests finished
-)
+);
