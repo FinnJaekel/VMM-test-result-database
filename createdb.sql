@@ -48,4 +48,11 @@ llog text,
 PRIMARY KEY(Measurement_ID)
 );
 
-CREATE VIEW latest_measurements as SELECT * from hybrid_overview WHERE measurement_id IN (SELECT max FROM(SELECT hybrid_id,MAX(measurement_id) as max FROM hybrid_overview GROUP BY hybrid_id) as foo);
+CREATE TABLE PaketID(
+Hybrid_ID text,
+Paket_ID text,
+Comments text,
+PRIMARY KEY(Hybrid_ID)
+);
+
+CREATE VIEW latest_measurements as SELECT * from hybrid_overview WHERE measurement_id IN (SELECT max FROM(SELECT hybrid_id,MAX(measurement_id) as max FROM hybrid_overview GROUP BY hybrid_id) as foo) INNER JOIN PaketID ON hybrid_overview.Hybrid_ID = PaketID.Hybrid_ID;
