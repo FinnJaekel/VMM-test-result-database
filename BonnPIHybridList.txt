@@ -121,3 +121,8 @@ INSERT INTO PacketID(Hybrid_ID,LocalNumbering) VALUES('5808a000a0000013','112039
 INSERT INTO PacketID(Hybrid_ID,LocalNumbering) VALUES('4488a000a00000ae','43');
 INSERT INTO PacketID(Hybrid_ID,LocalNumbering) VALUES('a8a3a000a000007d','1');
 INSERT INTO PacketID(Hybrid_ID,LocalNumbering) VALUES('bcc3a000a0000032','25');
+INSERT INTO PacketID(Hybrid_ID,LocalNumbering) VALUES('b4a6a000a00000a6','30');
+INSERT INTO PacketID(Hybrid_ID,LocalNumbering) VALUES('10b7a000a00000f6','22');
+INSERT INTO PacketID(Hybrid_ID,LocalNumbering) VALUES('7ca3a000a0000093','34');
+INSERT INTO PacketID(Hybrid_ID,LocalNumbering) VALUES('a000a00000ee','18');
+INSERT INTO PacketID(Hybrid_ID,LocalNumbering) VALUES('a00000b7','6');
