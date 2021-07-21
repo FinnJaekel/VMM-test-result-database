@@ -1,4 +1,4 @@
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('bcc3a000a0000032202107201507','2021-07-20','bcc3a000a0000032202107201507.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('d444a000a00000ba202107211453','2021-07-21','d444a000a00000ba202107211453.txt','//Conneted hardware and vmm position map. No comment in the following lines, take care of syntax!
 fecs: 1
 	fec 0: hybrids: 1
 			hybrid 0: x 1, vmms: 2
@@ -6,7 +6,7 @@ fecs: 1
 				vmm 1
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('bcc3a000a0000032202107201507','2021-07-20','bcc3a000a0000032202107201507_fec0.txt','fec 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('d444a000a00000ba202107211453','2021-07-21','d444a000a00000ba202107211453_fec0.txt','fec 0
 
 tp_offset_first 100
 tp_offset 1000
@@ -39,12 +39,12 @@ trgin_invert 0
 trgout_invert 0
 trgout_time 1
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('bcc3a000a0000032202107201507','2021-07-20','bcc3a000a0000032202107201507_fec0_hybrid0.txt','fec 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('d444a000a00000ba202107211453','2021-07-21','d444a000a00000ba202107211453_fec0_hybrid0.txt','fec 0
 hybrid 0
 
 CKBC 2
 CKBC_skew 0
-CKDT 3
+CKDT 1
 TP_pol 0
 TP_skew 0
 TP_width 0
@@ -52,7 +52,7 @@ axis 0
 position 1
 
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('bcc3a000a0000032202107201507','2021-07-20','bcc3a000a0000032202107201507_fec0_hybrid0_vmm0.txt','fec 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('d444a000a00000ba202107211453','2021-07-21','d444a000a00000ba202107211453_fec0_hybrid0_vmm0.txt','fec 0
 hybrid 0
 vmm 0
 
@@ -79,7 +79,7 @@ sbmx 0
 scmx 0
 sdck6b 0
 sdcka 0
-sdcks 1
+sdcks 0
 sdp 0
 sdp_2 300
 sdrv 0
@@ -815,7 +815,7 @@ channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
 ');
-INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('bcc3a000a0000032202107201507','2021-07-20','bcc3a000a0000032202107201507_fec0_hybrid0_vmm1.txt','fec 0
+INSERT INTO configs(Measurement_ID,date,filename,filecontent) VALUES('d444a000a00000ba202107211453','2021-07-21','d444a000a00000ba202107211453_fec0_hybrid0_vmm1.txt','fec 0
 hybrid 0
 vmm 1
 
@@ -842,7 +842,7 @@ sbmx 0
 scmx 0
 sdck6b 0
 sdcka 0
-sdcks 1
+sdcks 0
 sdp 0
 sdp_2 300
 sdrv 0
@@ -1577,25 +1577,4 @@ channel 63 sm 0
 channel 63 smx 0
 channel 63 st 0
 channel 63 sth 0
-');
-INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, vmm_class, avgTDC, adcintvertex, brokenchannels, adcintcurvature, hybrid_class, WorkingChannelsInt,Date) VALUES('bcc3a000a0000032202107201507','bcc3a000a0000032',0,'BonnPI', 'A', '73.8474', '31.532', '{}', '-0.0564401', 'a', '64','2021-07-20');
-INSERT INTO hybrid_overview (Measurement_ID, Hybrid_ID, VMM,location, vmm_class, avgTDC, adcintvertex, brokenchannels, adcintcurvature, hybrid_class, WorkingChannelsInt,Date) VALUES('bcc3a000a0000032202107201507','bcc3a000a0000032',1,'BonnPI', 'A', '67.905', '32.8175', '{}', '-0.0648429', 'a', '64','2021-07-20');
-INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('bcc3a000a0000032202107201507','bcc3a000a0000032','2021-07-20','ADCCalibrationInternal','{points,Channel,Average ADC,VMM}');
-CREATE TABLE IF NOT EXISTS ADCCalibrationInternal(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO ADCCalibrationInternal(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('bcc3a000a0000032202107201507','bcc3a000a0000032','2021-07-20','ADCCalibrationInternal','{points,Channel,Average ADC,VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{240.916,240.054,250.588,259.165,259.261,263.083,266.826,266.137,273.243,273.593,299.038,290.029,286.81,276.014,283.933,300.517,290.044,298.118,302.169,289.714,299.79,284.163,295.524,287.403,305.074,301.891,309.081,297.191,295.062,303.427,293.656,311.71,288.456,301.443,303.999,297.778,296.765,296.152,297.639,302.42,291.132,291.71,294.928,294.642,288.901,315.29,298.779,294.193,284.426,290.485,288.633,293.708,287.966,275.831,271.905,263.145,269.087,267.877,265.745,259.799,256.568,249.886,251.355,242.928}','{243.695,257.256,255.629,265.307,260.494,269.406,274.753,272.162,269.854,273.315,285.376,299.322,306.468,295.741,298.333,292.99,308.363,305.843,312.617,297.942,318.669,313.148,313.784,296.061,331.948,319.684,310.265,321.806,312.749,316.897,310.786,321.326,318.269,329.539,315.833,304.29,320.179,314.23,326.921,303.615,309.606,321.197,313.777,315.195,311.565,302.261,326.541,316.766,294.152,290.674,314.664,296.716,285.081,296.875,291.516,278.015,288.187,277.303,274.045,283.649,278.91,262.374,260.219,268.432}');
-INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('bcc3a000a0000032202107201507','bcc3a000a0000032','2021-07-20','Internalpulses','{points,Channel#,Hits,VMM}');
-CREATE TABLE IF NOT EXISTS Internalpulses(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO Internalpulses(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('bcc3a000a0000032202107201507','bcc3a000a0000032','2021-07-20','Internalpulses','{points,Channel#,Hits,VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{95372,95372,95371,95371,95371,95371,95371,95371,95371,95371,95371,95369,95370,95370,95370,95370,95370,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95370,95370,95371,95371,95371,95371,95371,95371,95371,95370,95370,95370,95369,95370,95370,95370,95370,95370,95370,95370,95370,95370,95370,95370,95369,95370,95370,95369,95371}','{95372,95372,95372,95372,95372,95371,95371,95371,95371,95371,95371,95369,95370,95370,95370,95370,95370,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95369,95370,95370,95371,95371,95371,95371,95371,95371,95371,95370,95370,95370,95370,95370,95370,95369,95370,95370,95370,95370,95370,95370,95370,95370,95369,95369,95369,95368,95371}');
-INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('bcc3a000a0000032202107201507','bcc3a000a0000032','2021-07-20','Temperature','{points,Time since first start [s],Temperature [°C],VMM}');
-CREATE TABLE IF NOT EXISTS Temperature(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO Temperature(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('bcc3a000a0000032202107201507','bcc3a000a0000032','2021-07-20','Temperature','{points,Time since first start [s],Temperature [°C],VMM}','{0}','{44.8649}','{43.2432}');
-INSERT INTO hybrid_data (Measurement_ID, Hybrid_ID, Date, Measurement_type, labels) VALUES('bcc3a000a0000032202107201507','bcc3a000a0000032','2021-07-20','TDCCalibrationInternal','{points,Channel,Average TDC,VMM}');
-CREATE TABLE IF NOT EXISTS TDCCalibrationInternal(Measurement_ID text, Hybrid_ID text, Date date, Measurement_type text, labels text[], x_ real[], y1_ real[], y2_ real[]);INSERT INTO TDCCalibrationInternal(Measurement_ID, Hybrid_ID, Date, Measurement_type, labels, x_, y1_, y2_) VALUES('bcc3a000a0000032202107201507','bcc3a000a0000032','2021-07-20','TDCCalibrationInternal','{points,Channel,Average TDC,VMM}','{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63}','{68.3135,70.3635,73.6884,74.5679,77.5466,76.2917,76.9923,72.4875,74.0298,69.9815,77.7423,71.6345,77.0832,81.1887,76.9867,76.2626,76.7777,72.2211,75.3078,72.3346,76.1532,71.1498,69.0552,78.2237,71.9923,69.6359,72.1293,71.6915,76.9775,73.9799,72.8812,75.246,75.4016,70.0226,67.2469,77.9717,66.9664,66.4984,66.2484,76.3982,70.8008,75.2512,71.9776,71.6905,74.9301,64.8679,69.1301,72.7895,72.8971,74.5081,71.9803,77.9746,75.119,78.7,71.4914,71.7308,79.476,73.5275,75.4984,83.1959,76.2384,79.2262,82.0806,73.4771}','{75.916,71.997,69.7447,69.6341,60.6522,74.9816,65.8323,67.0899,76.7898,72.1668,72.3637,72.9828,70.1769,69.2148,65.541,64.0808,67.5318,72.1881,66.0418,59.4973,69.5095,65.6848,69.0275,67.6194,63.0141,68.3488,58.9419,59.2977,66.0685,58.8998,56.6927,62.1728,68.3446,68.2798,62.746,62.3607,62.691,64.6392,63.1112,71.9675,64.0815,66.1801,70.6645,66.2496,64.1127,64.3156,57.8635,72.6838,73.5707,67.0044,68.561,71.4324,70.0205,65.7391,76.4012,69.5426,72.0744,72.099,72.8463,74.7829,75.1294,69.9601,76.0247,70.7423}');
-INSERT INTO logs (Measurement_ID,llog) VALUES('bcc3a000a0000032202107201507','Internal Test Pulse Test
-     On VMM 0 all Channels receiving pulses
-     On VMM 1 all Channels receiving pulses
-    Evaluating Internal Test Pulse ADC Curve
-        On VMM 0 ADC ok for all channels
-    Evaluating Internal Test Pulse ADC Curve
-        On VMM 1 ADC ok for all channels
-     On VMM 0 TDC ok for all channels
-     On VMM 1 TDC ok for all channels
-Internal Test Pulses tests finished
 ');
